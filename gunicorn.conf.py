@@ -1,0 +1,5 @@
+bind = "IP:PORT"
+keyfile = "PATH TO privkey.pem"
+certfile = "PATH TO fullchain.pem"
+worker_class = "uvicorn.workers.UvicornWorker"
+wsgi_app = "main:app"
