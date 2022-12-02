@@ -1,0 +1,16 @@
+ArchLinuxARM Package Downgrading
+Linux
+
+<p>I'm running <a href="https://www.archlinuxarm.org">ArchLinuxARM</a> on my Odroid C2. After a system upgrade it wouldn't boot anymore. So after going through some forums I figured out that systemd was the culprit. I had to downgrade to the previous version. However how do I achieve this when I have just x64 system laying around.</p>
+
+</p>My goal was to take the MMC which stores the system of my Odroid C2 and mount it on my x64 so that a have access to the filesystem of the ArchLinuxARM installation. This is pretty straightforward with a memorycard adapter. Now comes the tricky part.</p>
+
+<p>You need to be able to run arm executables (im my case aarch64). So the first step is to get qemu-user-static unto my x64 system. <a href="https://aur.archlinux.org/packages/qemu-user-static">AUR</a> has a package for this. After having built and installed this package copy the executable for your architecture to the mounted mmc. I mounted it to <em>/mnt</em></p>
+
+<pre>cp /usr/bin/qemu-aarch64-static /mnt/usr/bin/</pre>
+
+<p>Next you need the <a href="https://www.archlinux.org/packages/extra/any/arch-install-scripts/">arch-install-scripts</a> to get the <strong>arch-chroot</strong> command. This is a modified <strong>chroot</strong> command which sets up all ArchLinux specific configurations.</p>
+
+<p>Now we execute <strong>pacman</strong> to downgrade the package on the mounted mmc.</p>
+
+<pre>arch-chroot /mnt qemu-aarch64-static /bin/pacman -U /var/cache/pacman/pkg/systemd-244.3-1-aarch64.pkg.tar.xz</pre>

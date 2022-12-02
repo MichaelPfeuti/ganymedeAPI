@@ -1,0 +1,16 @@
+eth0 eth1, NIC naming changes
+Linux
+
+<p>With Linux the naming of the NIC's isn't fixed. So it might be that it changes after every reboot.</p>
+
+<p>With udev rulesÂ&nbsp; one can fix the naming based on the MAC address of the NICs.</p>
+
+<p>With ArchLinux simple add a file exp 10-network.rules containing text as follows
+<pre>
+SUBSYSTEM=="net", ATTR{address}=="00:30:4f:1c:ec:5f", NAME="eth0"
+SUBSYSTEM=="net", ATTR{address}=="00:30:48:9c:63:26", NAME="eth1"
+SUBSYSTEM=="net", ATTR{address}=="00:30:4e:9c:21:17", NAME="eth2"
+</pre>
+to the /etc/udev/rules.d directory.</p>
+
+<p><strong>IMPORTANT</strong>: Make sure the letters in the MAC address are lower case.</p>

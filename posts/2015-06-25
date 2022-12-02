@@ -1,0 +1,12 @@
+Last value of a data range
+Excel
+
+<p>I was faced with the problem ofÂ&nbsp;finding the last value of a data range in Excel. Assume the range resides in the column A. Today there are 50 values in A1:A50. Over the time new values will be added and the goal is to get the most recent (the last) value.</p>
+
+<p>The solution is the INDEX() function. It allows you to select a value in a range by index. Therefore, the following solves my issue if I know there won't be more than 100 values 
+<pre>INDEX(A1:A100;COUNT(A1:A100))</pre>
+</p>
+
+<p>Otherwise 
+<pre>INDEX(A:A;COUNT(A:A))</pre> 
+gives the answer as long as there aren't any empty cells between the values.</p>

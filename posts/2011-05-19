@@ -1,0 +1,6 @@
+Sequence Diagrams
+Programming
+
+<p><a href="http://www.mcternan.me.uk/mscgen/">http://www.mcternan.me.uk/mscgen/</a></p>
+
+<p>mscgen is a simple and very handy tool to generate sequence diagrams. If you are not looking for a fancy GUI to get your diagram this is certainly a product to try. Furthermore, you can use msc directly in doxygen. This makes it an even more suitable program for c and c++ software engineers..</p>

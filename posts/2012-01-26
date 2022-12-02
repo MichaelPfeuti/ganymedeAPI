@@ -1,0 +1,26 @@
+C++ Marco Debug Options
+Programming
+
+<p>To be honest, it should be straight forward but I took me a while to figure it out.</p>
+
+<p>I wanted to mark certain lines in the code such that I can easily enable/disable it. So here it is:
+<pre>// set to 1 to enable timing and output
+#if 0 
+   #define TIMING 
+   #define OUTPUT 
+#else
+   #define TIMING / ## /
+   #define OUTPUT / ## /
+#endif
+...
+   TIMING startTimer();
+   ...
+   TIMING stopTimer();
+...
+</pre>
+
+<p>When <code>#define TIMING / ## /</code> is used then <code>TIMING</code> is replaced with <code>//</code>. Thus the entire line is commented and therefore disabled. This way i can easily turn on/off several debugging facilities.</p>
+
+<p>The <code>##</code> in the macro definition means that the previous and successive pieces of text are concatenated. So <code>TIMING myCode;</code> results in <code>// myCode;</code>. We cannot use <code>#define TIMING //</code> because the <code>//</code> won't be parsed as the replacement string, it will be parsed as the comment literal.</p>
+
+<p>This is a simple but handy technique.</p>

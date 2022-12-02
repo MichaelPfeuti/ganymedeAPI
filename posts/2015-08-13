@@ -1,0 +1,13 @@
+Unconstrained Optimization
+Programming
+
+<p>MATLAB/GNU Octave offers simple ways to find the minimum of any function. The two easiest methods are <code>fminsearch</code> and <code>fminunc</code>. The former uses a simplex search method while the latter uses a gradient based method.</p>
+
+<p>Here is a simple example for a lognormal parameter estimation:
+<pre>
+x = sort([0.0027400 0.0093730 0.0458460 0.0135300])
+y = (1:length(x))./(length(x)+1)
+fun = @(p) sum( (logninv(y,p(1),p(2)) - x).^2 )
+estimate = fminsearch(fun,[-5;2])
+</pre>
+</p>

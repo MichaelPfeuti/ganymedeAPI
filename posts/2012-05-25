@@ -1,0 +1,27 @@
+Testing with CMake/CTest
+Programming
+
+<p>Testing in C/C++, as is widely known, doesn't have a standard Framework as in Java with JUnit. A cross-plattform solution I've come to like is CMake/CTest (and possibly CDash).</p>
+
+<p>With CMake we can build test than can be executed with CTest and the results can be published to CDash in needed. CMake has the <a href="http://www.cmake.org/cmake/help/v2.8.8/cmake.html#command:add_test" target="_blank">add_test(...)</a> function which lets you define a new test by give the name of the test that is displayed and the executable with optional arguments. Basically, a test is successful when the executable returns 0 and false otherwise. Since we must give an executable to be run we can either build hundreds of executables, one for each test. But this isn't very efficient when we have to link a large library. So usually, we build multiple tests in one executable and distinguish which test to run by an argument to the executable.Â&nbsp; Normally such test application are called TestDriver or TestRunner.</p>
+
+<p>CMake provides a function that build a TestDriver for you. With <a href="http://www.cmake.org/cmake/help/v2.8.8/cmake.html#command:create_test_sourcelist" target="_blank">create_test_sourcelist(...)</a> you can pass it all the source files that define some tests. By convention it is assumed that a test source file call <code>Test1.cpp</code> has a function <code>int Test1(int, char*[])</code>. The CMake function gives us a list of all files that we need for compiling the TestDriver.</p>
+
+<p>With this list we can build the TestDriver with <a href="http://www.cmake.org/cmake/help/v2.8.8/cmake.html#command:add_executable" target="_blank">add_executable(...)</a>. We add here any other files that are needed and then also link all libs we need for the tests with <a href="http://www.cmake.org/cmake/help/v2.8.8/cmake.html#command:target_link_libraries" target="_blank">target_link_libraries(...)</a>.</p>
+
+<p>The last thing we need is to tell CMake about the test in the TestDriver with<a href="http://www.cmake.org/cmake/help/v2.8.8/cmake.html#command:add_test" target="_blank"> add_test(...)</a> . I wonder why they don't provide a function that also adds the test automatically. But for now we have to call <a href="http://www.cmake.org/cmake/help/v2.8.8/cmake.html#command:add_test" target="_blank">add_test(...)</a>Â&nbsp; for each test we have.</p>
+
+<p>Putting everything together with some helper macro we have a system which is easy to extend and use for testing.
+<pre>macro(add_test_case name)
+  set(test_src_list "${test_src_list}" "${name}.cpp")
+  add_test(NAME ${test_driver}.${name} COMMAND ${test_driver} ${name})
+endmacro()
+
+set(test_driver "MyTestDriver")
+
+add_test_case(Case1)
+add_test_case(Case2)
+
+create_test_sourcelist(testDriverSrcList "${test_driver}.cpp" ${test_src_list})
+add_executable(${test_driver} ${testDriverSrcList} "Source1.cpp" "Source2.cpp")
+target_link_libraries(${test_driver} Lib1 Lib2)</pre></p>

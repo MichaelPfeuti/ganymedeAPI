@@ -1,0 +1,8 @@
+AntTweakBar
+Programming
+
+<p>Yesterday I discovered a great libraray for OpenGL/DirectX which allows you to easily add an interface to change varibales. It is called <a title="https://anttweakbar.sourceforge.net/doc/" href="https://anttweakbar.sourceforge.net/doc/">AntTweakBar</a>.</p>
+
+<img src="https://img.youtube.com/vi/OEpsG2PGi-s/0.jpg" alt="" width="422" height="337">
+
+<p>What needs to be done is just to tell the library what your variables are and of what type they are. The rest is done by the library. So if you are looking for an easy-to-use but still visually appealing way to edit certain variables of your OpenGL/DirectX application this is certainly a library to look into.</p>

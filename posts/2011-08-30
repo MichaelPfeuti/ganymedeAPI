@@ -1,0 +1,57 @@
+Http Git Server
+Programming, Linux
+
+<p>Eventually, I decided to give GIT a try. Therefore, I set up a GIT server on ganymede.ch. The server uses the handy <a href="http://www.kernel.org/pub/software/scm/git/docs/git-http-backend.html">git-http-backend</a></p>
+
+<p>The git-http-backend is basically a cgi script that processes git requests. The set up is straight forward. First you have to make sure that apache can access and execute the git scripts. On Arch Linux this look like this:
+<pre>
+<directory "="" usr="" lib="" git-core*"="">
+    Order allow,deny
+    Allow from all
+</directory>
+</pre>
+To get the cgi script working I followed the manpage and added
+<pre lang="apache">SetEnv GIT_PROJECT_ROOT /srv/git
+SetEnv GIT_HTTP_EXPORT_ALL
+SetEnv REMOTE_USER=$REDIRECT_REMOTE_USER
+ScriptAlias /git/ /usr/lib/git-core/git-http-backend/
+</pre>
+Finally, we want some authentication and this can be done by
+<pre lang="apache"><location git="" reposname="">
+        AuthType Basic
+        AuthName "Private Git Access"
+        Require group committers
+        ...
+</location>
+</pre>
+for read/write authentication or
+<pre>
+<locationmatch "^="" git="" reposname="" git-receive-pack$"="">
+      AuthType Digest
+      AuthName "Git Repositories"
+      AuthUserFile /srv/git/.git-auth-file
+      AuthGroupFile /srv/git/.git-group-file
+      Require group mygroup
+</locationmatch>
+</pre>
+</p>
+
+<p>I have an entry for each separate repository. This way I can have a fine grained access scheme by using different groups for different repositories.</p>
+
+<p><strong>NOTE:</strong> Unfortunately, I couldn't figure out how to ScriptAlias / instead of /git to the CGI script. For more information see: <a href="http://stackoverflow.com/questions/7222992/git-http-backend">stackoverflow</a></p>
+
+<p>This gives a already a working GIT server. I installed also cgit to provide a webinterface.</p>
+
+<p>What remains to be done is to create a repository. For this we execute <em>git --bare init reposname</em>. Make sure apache has all the necessary rights for this newly created repository.</p>
+
+<p>That's it!</p>
+
+<p><strong>Note:</strong> When you experience error messages during clone that mention something about <em>update-server-info</em> then you should execute <em>git update-server-info</em> in your repository and then enable the post-update hook containing <em>exec git update-server-info</em> (In my case this was the default in the post-update file). Btw: the hooks are located under <em>hooks</em> in the repository folder. Another issue is that right after <em>git --bare init</em> there is nothing in the repository. So, I had to do an explicit <em>push</em> the first time. This means I specified where I want to <em>push</em> (<em>git push http://my_git_server/git/repos master</em>).</p>
+
+<p>On the client side it might be worth using  <code>~/.netrc</code> file with
+<pre>
+machine git_server.com
+login your_git_login
+password your_git_password
+</pre>
+This way you don't have to pass the password everytime you push/pull to/from the GIT server.</p>

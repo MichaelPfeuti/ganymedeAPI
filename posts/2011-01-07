@@ -1,0 +1,14 @@
+glTexImage2D doesn't load sequential RGB data correctly
+OpenGL
+
+<p>I wanted to render the image I had in memory with OpenGL. The image data are stored as <code>unsigned byte</code> data without padding. The colors are represented by RGB (in this order). When I loaded the texture data with
+<pre>glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB,
+             width, height, 0, 
+             GL_RGB,  GL_UNSIGNED_BYTE, 
+             imageData);
+glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP);
+glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP);
+glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+</pre>
+the rendered image showed only a black and with image which was line-wise distorted. The reason for the distortion was that by image data was not correctly aligned. The <code>GL_UNPACK_ALIGNMENT</code> defines the alignment when uploading data. So, setting <code>glPixelStorei(GL_UNPACK_ALIGNMENT, 1)</code> solved my problem.</p>

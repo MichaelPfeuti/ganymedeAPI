@@ -1,0 +1,17 @@
+GLSL Samplers
+Programming
+
+<p>This is the result of the rendering algorithms course of FS09 at UniBE.</p>
+
+<p>We built a ray tracer with standard features. In the image you can see the following features:
+<ul>
+ 	<li>Perlin Noise Texturen</li>
+ 	<li>Bump Mapping</li>
+ 	<li>Depth of Field</li>
+ 	<li>Refraction</li>
+ 	<li>Environment Mapping</li>
+ 	<li>Photon Mapping (Caustics)</li>
+</ul>
+</p>
+
+<a href="http://www.ganymede.ch/wp-content/uploads/2009/05/stanford.png"><img class="alignnone size-medium wp-image-81" title="RA_spheres" src="http://www.ganymede.ch/wp-content/uploads/2009/05/stanford-300x187.png" alt="" width="300" height="187"></a>

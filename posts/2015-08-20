@@ -1,0 +1,13 @@
+Calculate Expected Shortfall in SQL
+Programming
+
+<p>A commonly used risk measure is the <a href="https://en.wikipedia.org/wiki/Expected_shortfall" target="_blank">Expected Shortfall</a>. Unfortunately, this function to calculate the sample expected shortfall is rarely implemented. As there is much data stored in databases accessible through SQL, I tried to calculate this value directly in SQL. It turns out this is a one-liner. Let's assume we have a table called "LossSimulation" and a column/field named "LossValue" then the sample expected shortfall at level 95% is
+<pre>
+SELECT AVG(LossValue)
+FROM (
+	SELECT TOP 95 PERCENT LossValue 
+	FROM LossSimulation 
+	ORDER BY LossValue
+)
+</pre>
+<p>Note: Microsoft Access may list more than 95% of all records because if multiple values at the 95% quantile value are the same then all these records are listed (<a href="https://support.office.com/en-sg/article/ALL-DISTINCT-DISTINCTROW-TOP-Predicates-24f2a47d-a803-4c7c-8e81-756fe298ce57" target="_blank">see here</a>).</p>

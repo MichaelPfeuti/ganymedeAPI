@@ -1,0 +1,21 @@
+Overwrite Console Output with printf
+Programming
+
+<p>
+<pre>
+for(int i = 0; i &lt; 100; i++)
+{
+  printf("%d", i);
+}
+</pre>
+prints the numbers 0-99 behind each other. So 0123456....</p>
+
+<p>However, we would like to see only one number and the previous number is overwritten. We can achieve this by returning the carriage back to the beginning of the current line. This can be done with <code>\r</code>.</p>
+
+<p>Thus
+<pre>
+for(int i = 0; i &lt; 100; i++)
+{
+  printf("%d\r", i);
+}
+</pre></p>

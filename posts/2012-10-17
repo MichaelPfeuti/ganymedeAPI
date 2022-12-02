@@ -1,0 +1,4 @@
+CMake and Compiler target architecture
+Programming
+
+<p>In a windows build system I use, we set up two distinct development environments. Both use the <a href="http://mingw-w64.sourceforge.net/">MinGW-w64</a> compilers. One is the 32 and the other the 64 bit <a href="http://gcc.gnu.org/">GCC compiler.</a> In addition I use <a href="http://www.cmake.org">CMake </a>as the build system. Now I need to know if I'm compiling for 32 or 64 bit to know against which libs to link. On way of figuring this out is exploiting that we do not crosscompile. Depending on the environment I have the 32 or 64 bit GCC compiler. GCC tells you what its target machine is either with the <code>-v</code> option or the <code>-dumpmachine</code> option. So this can easliy be included in CMake and find the appropriate libraries</p>

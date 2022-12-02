@@ -1,0 +1,48 @@
+ffmpeg stream interleaving
+Programming
+
+<p>There are plenty of complaints about the ffmpeg API being badly documented and hard to learn. While this was the case some years ago, ffmpeg has come along well and is very well documented. However, there are still some parts where prior knowledge is required and thus looks not well documented. For me, this was the case with writing video files.</p>
+
+<p>First let's look at what we need to do to write a video:
+<ol><li>find you frame you want to add to the video.</li>
+<li>bring it into a form the encoder can work with (I use here the <code>sws_scale</code> which converts my RGBA to a YUV420p or whatevery the encoder likes)</li>
+<li>encode this sws_scaled frame with <code>avcodec_encode_video2</code>. This gives us an <code>AVPacket</code> when the frame was encoded. It can also be buffered, in which case no valid AVPacket is returned. When you want to finish you video and you last frame was buffered then you need to flush the encoder to give you all the buffered images.</li>
+<li>when a valid <code>AVPacket</code> is returned then it need to be written to the video file. This is done by either <code>av_write_packet</code> or <code>av_interleaved_write_packet</code>.</li>
+
+<p>In step 4 I was not sure what to choose. What does interleaved mean? What are the consequences of using the wrong function?</p>
+
+<p>So, here is what I figured you.</p>
+
+<p>Interleaving means the interleaving of the individual streams in a video file. A video normally, has one video and one audio stream. For a video player to efficiently play the audio and video frames for a certain point in time the data should be close by (in a memory sense). Otherwise, the player has to hunt and seek the matching pairs of audio and video frames over the entire video file. This of course would kill the real-time aspect of any video. So to provide a sensible video we must interleave the audio and video frames. When we look at how ffmpeg interleaves a simple matroska example we see that the packets in the video file are first ordered by timestamp and then by stream index. Of course when the video has not only I Frames this timestamp ordering is not given.</p>
+<pre>I frame, track 1, timecode 0 (00:00:00.000), size 1028, adler 0x8c9b270f
+I frame, track 3, timecode 0 (00:00:00.000), size 1028, adler 0x8c9b270f
+P frame, track 1, timecode 167 (00:00:00.167), size 48, adler 0x9881050a
+I frame, track 2, timecode 0 (00:00:00.000), size 343, adler 0xcc5f05be
+P frame, track 3, timecode 167 (00:00:00.167), size 48, adler 0x9881050a
+I frame, track 4, timecode 0 (00:00:00.000), size 343, adler 0xcc5f05be
+I frame, track 2, timecode 21 (00:00:00.021), size 343, adler 0xc34e03ff
+I frame, track 4, timecode 21 (00:00:00.021), size 343, adler 0xc34e03ff
+P frame, track 1, timecode 42 (00:00:00.042), size 47, adler 0x76da04a0
+I frame, track 2, timecode 42 (00:00:00.042), size 342, adler 0xb5f409b0
+P frame, track 3, timecode 42 (00:00:00.042), size 47, adler 0x76da04a0
+I frame, track 4, timecode 42 (00:00:00.042), size 342, adler 0xb5f409b0
+I frame, track 2, timecode 63 (00:00:00.063), size 343, adler 0xcf892379
+I frame, track 4, timecode 63 (00:00:00.063), size 343, adler 0xcf892379
+P frame, track 1, timecode 83 (00:00:00.083), size 47, adler 0x798504b1
+P frame, track 3, timecode 83 (00:00:00.083), size 47, adler 0x798504b1
+I frame, track 2, timecode 85 (00:00:00.085), size 342, adler 0xc1533251
+I frame, track 4, timecode 85 (00:00:00.085), size 342, adler 0xc1533251
+I frame, track 2, timecode 106 (00:00:00.106), size 343, adler 0x58ee3264
+I frame, track 4, timecode 106 (00:00:00.106), size 343, adler 0x58ee3264
+P frame, track 1, timecode 125 (00:00:00.125), size 47, adler 0x7c3204c4
+P frame, track 3, timecode 125 (00:00:00.125), size 47, adler 0x7c3204c4
+I frame, track 2, timecode 127 (00:00:00.127), size 342, adler 0xe6cd388f
+I frame, track 4, timecode 127 (00:00:00.127), size 342, adler 0xe6cd388f
+I frame, track 2, timecode 148 (00:00:00.148), size 343, adler 0x840b446a
+I frame, track 4, timecode 148 (00:00:00.148), size 343, adler 0x840b446a
+</pre>
+<p>I still need to figure out the rule for interleaving the P Frames properly.</p>
+
+<p>So back to the question what the consequences are of using the wrong function. <code>av_write_packet</code> expects the programmer to pass the packets in the interleaved order. As we can see this can be difficult when P Frames and B Frames come into play. On the other hand, <code>av_interleaved_write_packet</code> buffers the packets internally and reorders then such that they meet the "interleaved criteria". So, in case of doubt about how the correctly interleave (which I obviously still am) use the <code>av_interleaved_write_packet</code>. This guarantees you the right interleaving. On the downside it requires more memory due to the internal buffering. This buffering can be enormous when the packets are passed to <code>av_interleaved_write_packet</code> in a suboptimal way. For instance, writing first all frames from stream one the all frames from stream two is bad because the first stream needs to be buffered entirely.</p>
+
+<p>To sum up, as I still do not know how to interleave P and B Frames properly I will use the <code>av_interleaved_write_packet</code> to write video files. When not one entire stream after the other is written (all packets of stream one then all packets of stream two and so on) the performance is acceptable and the memory consumption moderate.</p>
