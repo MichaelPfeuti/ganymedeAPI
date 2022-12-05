@@ -1,0 +1,28 @@
+CUDA 3D Array Pitch
+OpenGL
+
+<p>The CUDA manual isn't really precise in telling how to use the pitch with 3D Array (memory obtained by using
+    <code>cudaMallocPitch, cudaMalloc3D</code>, not 3D cudaArrays). So here is a brief summary of how (I think)
+    everything works.</p>
+
+<p>What nVidia means by a pitch is basically the width in byte of an array (2D or 3D). We can specify the width of the
+    array in bytes like this <code>volumeSize.width *sizeof(YOUR_TYPE)</code>. With this information we can access any
+    element in a 3D array. We can compute the <code>slicePitch</code> (for a 3D array) which is
+    <code>volumeSize.height*pitch</code>. The <code>slicePitch</code> is the offset in bytes from one slice in a 3D
+    array to the next slice.</p>
+
+<p>Now let's say we want to access the element (x,y,z) in a 3D array <code>data</code> (which is the base pointer). This
+    is how we can do it:</p>
+
+<pre>(myType) (((char*)data)[x*sizeof(myType) + y*pitch + z*slicePitch])</pre>
+
+<p>So what we get from the methods <code>cudaMallocPitch, cudaMalloc3D</code> is linear memory which need to be accessed
+    in the way described above.</p>
+
+<p>We need to know how pitches work when we want to copy arrays (when the copy method expects a pitched pointer which we
+    can create with <code>make_cudaPitchedPtr(baseAddress, pitch, width, height)</code>). This is also sufficient for
+    the copy process. Let's assume we use <code>cudaMemcpy3D</code>. In this case we must specify the extent, in other
+    words the size of our array. All necessary information to execute the copy are now present (it can be ensured that
+    no invalid memory will be accessed) . Each element can be accessed by <code>cudaMemcpy3D</code> as described above.
+    So, this means that we do not need to use the depth (in case of a 3D array) when we
+    <code>make_cudaPitchedPtr</code>.</p>

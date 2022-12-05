@@ -1,0 +1,40 @@
+INT*_C Macros
+Programming
+
+<p>The header <code>stdint.h</code> defines loads of macros. As such it is an omnipresent header that is included in
+   many other headers. Being a C99 header, some macros are disabled in C++. One example are the
+   <code>INT8_C, INT16_C, INT32_c and INT64_C</code> macros. When looking at the header (see below) one sees that the
+   macros can be enabled in C++ by defining <code>__STDC_CONSTANT_MACROS</code>.
+<pre>/* The ISO C99 standard specifies that in C++ implementations these
+   should only be defined if explicitly requested.  */
+#if !defined __cplusplus || defined __STDC_CONSTANT_MACROS
+
+/* Signed.  */
+# define INT8_C(c)      c
+# define INT16_C(c)     c
+# define INT32_C(c)     c
+# if __WORDSIZE == 64
+#  define INT64_C(c)    c ## L
+# else
+#  define INT64_C(c)    c ## LL
+# endif
+
+...
+#endif
+</pre>
+</p>
+
+<p>When I tried this in some C++ file in my project, it didn't fix the
+   <code>error: UINT64_C was not declared in this scope</code>. I realized that the header has already been included
+   before I defined <code>__STDC_CONSTANT_MACROS</code>. Due to the header guard the define has no effect. To fix this
+   problem I simply undef the header guard.
+<pre>#define __STDC_CONSTANT_MACROS
+#ifdef _STDINT_H
+# undef _STDINT_H
+#endif
+# include &lt;stdint.h&gt;
+</pre>
+</p>
+
+<p>Of course this trick does not work for all header but in the case of <code>stdint.h</code> it works because this
+   header only defines macros.</p>

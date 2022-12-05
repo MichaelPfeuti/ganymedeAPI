@@ -1,0 +1,38 @@
+Pfeuti Punk IPA (3ter Versuch)
+Bemerkung: Basis Rezept von Brewdog Punk IPA 2007-2010 (Andere Hopfung)
+
+Schüttung
+  * 5.3 kg Pale Ale Malz 
+
+Brauwasser
+  * 22 l Hauptguss
+  * 9  l Nachguss
+
+Maischen (Englisches Infusionsverfahren siehe S. 105 Hanghofer)
+  - Einmaischen von 15 l von 77 °C -> 65 °C
+  - Nach 75 Min 7 l kochendes Wasser zubrühen -> 73 °C
+  - Nach Jodnormalität, sedimentieren lassen und abmaischen
+
+Hopfung 
+  * Kochen nach Würzebruch: 70 Min.
+
+  * (Start) Bitterhopfung: Ahtanum (4.4%, 13 g)
+  * (Start) Bitterhopfung: Chinook (11.4%, 11 g)
+  * (Mitte) 20 Min vor Ende: Crystal (3.6%, 20 g)
+  * (Mitte) 20 Min vor Ende: Chinook (11.4%, 17 g)
+  * (Ende) Nach Kochende: Ahtanum (4.4%, 37 g)
+  * (Ende) Nach Kochende: Chinook (11.4%, 22 g)
+  * (Ende) Nach Kochende: Crystal (3.6%, 20 g)
+  * (Ende) Nach Kochende: Motueka (8.2%, 20 g)
+
+Hefe
+  * Wyeast 1056, American Ale
+
+Feedback
+  * 77 grad war etwas hoch. Es ergab 69 anstatt 65 grad. (Aussentemperatur 13 grad)
+  * 7 l kochend ergab 73 grad (Sud war 63 grad). 
+  * 9 l Nachguss
+  * 12 brix vor kochen 
+  * letzte hopfengabe bei kühlen bei 60 grad.
+  * 17.5 liter würze
+  * Weck Verstopft somit konnte nicht in Gärbottich umgefüllt werden.

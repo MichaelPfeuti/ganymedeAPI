@@ -1,0 +1,20 @@
+Bash Loop Over Folder Contents
+Linux
+
+<p>I was writing a bash script which has to loop over several folder recently. The command</p>
+
+<pre>for i in $( ls ); do ...</pre>
+
+<p>does that. However, if the folder or file names contain whitespaces then this wont work because the <code>for</code>
+    loop splits the input at whitespaces. the reason for this is because <code>for</code> loop uses whatever is in the
+    $IFS environment variable and uses that as the splitter characters. By default it is set to the space character.
+    Thus we have to change this temporarily to a line break.</p>
+
+<pre>
+SAVEIFS=$IFS
+IFS=$(echo -en "\n\b")
+....
+IFS=$SAVEIFS</pre>
+
+<p>For more details see <a href="http://www.cyberciti.biz/tips/handling-filenames-with-spaces-in-bash.html"
+        target="_blank">here</a>.</p>

@@ -1,0 +1,71 @@
+Some things to remember when writing C++ code
+Programming
+
+<p>I recently finished reading Scott Meyers' <a
+        href="http://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876/ref=ntt_at_ep_dpt_1"
+        target="_blank">Effective C++</a> (ec) and <a
+        href="http://www.amazon.com/More-Effective-Improve-Programs-Designs/dp/020163371X/ref=pd_bxgy_b_img_b"
+        target="_blank">More Effective C++</a> (mec) as well as <a
+        href="http://www.amazon.com/Coding-Standards-Rules-Guidelines-Practices/dp/0321113586/ref=ntt_at_ep_dpt_1"
+        target="_blank">C++ Coding Standards</a> (ccs) by Herb Sutter and Andrei Alexandrescu. As a side note,
+    these books are a MUST READ for any C++ developer. Of course many things are common knowledge (taught at University)
+    but there are plenty of very interesting concepts and pointers (literally and figuratively).</p>
+
+<p>The post is basically a summary of things I found most useful the learn. To me this is simply summarizing task to
+    remember what i read better.</p>
+
+<strong>ec Item 6: Explicitly disallow the use of compiler generated functions you do not want</strong>
+
+<p>This is something to achieve easily. Just declare the compiler generated functions private. This way no caller can
+    access it. So when you have a class that should never be copied, declare the copy constructor and the assignment
+    operator private. I good idea might be to provide a base class <a
+        href="http://www.boost.org/doc/libs/1_47_0/libs/utility/utility.htm#Class_noncopyable"
+        target="_blank">Uncopyable</a>.</p>
+
+<strong>ec Item 11: Handle assignment to self in operator=</strong>
+
+<p>An easy to follow rule but you need to have run into a bug caused by this or be told be someone of that. The item
+    states that you should beware of <em>rClass</em> being the same instance as <em>*this </em>in <em>MyClass&amp;
+        operator=(const MyClass&amp; rClass). </em>To avoid any problem in the case check for <em>&amp;rClass == this
+    </em>as the first thing you do in the assignment operator.</p>
+
+<strong>ec Item 12: Copy all parts of an object</strong>
+
+<p>
+    Remember to invoke the copy constructor and the assignment operators of the direct base classes of your class. This
+    item
+    also features a rule that I personally would have put into a separate item: "Don't try to implement one of the
+    copying
+    functions in terms of the other." [quote from ec] The copy constructor and the assignment operator do basically the
+    same
+    thing. So you might be tempted to let the copy constructor call the assignment operator or vice versa. NEVER
+    DO THAT, write a private member function that is called from the two.</p>
+
+<strong>ec Item 23: Prefer non-member non-friend functions to member functions</strong>
+
+<strong>ec Item 32: Make sure public inheritance models "is-a"</strong>
+
+<strong>ec Item 33: Avoid hiding inherited names</strong>
+
+<strong>ec Item 34: Differentiate between inheritance of interface and inheritance of implementation</strong>
+
+<strong>ec Item 35: Consider alternatives to virtual functions</strong>
+
+<strong>ec Item 36: Never redefine an inherited non-virtual function</strong>
+
+<strong>ec Item 37: Never redefine a function's inherited default parameter value</strong>
+
+<strong>ec Item 38: Mode "has-a" or "is-implemented-in-terms-of" through composition</strong>
+
+<strong>mec Item 1: Distinguish between pointer and references</strong>
+
+<strong>mec Item 12: Understand how throwing an exception differs from passing a parameter or calling a virtual
+    function</strong>
+
+<strong>mec Item 13: Catch exceptions by reference</strong>
+
+<strong>mec Item 19: Understand the origin of temporary objects (and C++11 rValue references)</strong>
+<p>Lastly, I discovered that <a href="http://gcc.gnu.org/" target="_blank">gcc</a> provides
+    a warning option that looks for items that Scott Meyers suggested. The option
+    is <em>-Weffc++</em>. This helped me a lot finding bugs in assignment operators and
+    copy constructors.</p>

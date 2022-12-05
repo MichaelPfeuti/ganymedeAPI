@@ -1,0 +1,13 @@
+CUDA and Critical Sections with Locks
+OpenGL
+
+<p>I had the following problem:</p>
+
+<blockquote>Each CUDA Thread might possible write to any cell in a 3d array in global memory. Thus, some synchronization
+    is required.</blockquote>
+
+<p>The easiest solution is using the atomic operations which are provided by CUDA. Unfortunately, the performance isn't
+    great. Therefore, I tried improving the performance by implementing a locking mechanism of my own. Simply, using a
+    lock.</p>
+
+<p>The result was that this approach is absolutely useless. I experienced a performance loss of nearly 1000x</p>

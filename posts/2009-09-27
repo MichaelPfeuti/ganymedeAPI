@@ -1,8 +1,0 @@
-Disk Wiping 
-Linux
-
-<p>I was looking for a way to wipe a whole disk. With *nix systems, this is very easy. Simply make use of <code>dd</code>. So to wipe <code>/dev/sda</code> execute</p>
-
-<pre>dd if=/dev/zero of=/dev/sda bs=1m</pre>
-
-<p></p>Well, it's not DOD clean but enough for my data. To overwrite a drive with random data to wipe the drive more securely <code>/dev/urandom</code> or <code>/dev/random</code> can be used for the input file.</p>

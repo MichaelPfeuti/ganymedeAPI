@@ -1,0 +1,50 @@
+CUDA 2D/2D Memcpy Issue and Pitched Pointers
+OpenGL
+
+<p>In my application I wanted to copy 3D array data from linear memory (allocated with <code>cudaMalloc</code>) to a
+    <code>cudaArray</code> with <code>cudaMemcpy3D</code>. Now, I had the problem that <code>cudaMemcpy3D</code>
+    reported <code>cudaErrorInvalidValue</code>. If you encounter a problem like that it might be because of the fact
+    that <code>cudaMalloc</code> was used instead of <code>cudaMalloc3D</code> for allocatimg the linear memory. If
+    <code>cudaMalloc</code> was used then you are forced to create you own <code>cudaPitchedPtr</code> with
+    <code>make_cudaPitchedPtr</code> in order to call <code>cudaMemcpy3D</code>. According to the manual (this
+    information is not extremely emphasized in it) <code>make_cudaPitchedPtr</code> is not guaranteed to construct a
+    pitched pointer which is valid for memory copy procedures. One should always use <code>cudaMalloc3D</code> or
+    <code>cudaMallocPitched</code> whenever we want to memcpy because these methods guarantee valid pitched pointers.
+</p>
+
+<blockquote>"For allocations of 2D and 3D objects, it is highly recommended that programmers perform allocations using
+    cudaMalloc3D() or cudaMallocPitch(). Due to alignment restrictions in the hardware, this is especially true if the
+    application will be performing memory copies involving 2D or 3D objects (whether linear memory or CUDA arrays)."
+    [from the <a
+        href="http://developer.download.nvidia.com/compute/cuda/2_3/toolkit/docs/online/group__CUDART__MEMORY_g04a7553c90322aef32f8544d5c356a10.html#g04a7553c90322aef32f8544d5c356a10">Reference
+        Manual</a>]</blockquote>
+
+<p>This, in fact, solved my problem of the <code>cudaErrorInvalidValue</code> when I tried to <code>cudaMemcpy3D</code>.
+    However, the fact that we use pitched pointer complicates the array access in the kernels. First of all we have to
+    keep track of the data type stored in a pitched pointer (ptr is a void pointer). Furthermore, we have to be careful
+    when dealing with pointer arithmectics because the pitch is, obviously, a byte offset (width of the array). Here is
+    some sample code that shows how to access pitched pointer data. We assume we want to store
+    <code>float4</code>data in our 3D array which is of size (width, height, depth). In the kernel we want to access the
+    element (x,y,z).
+</p>
+
+<p>Host Code:</p>
+<pre>
+...
+cudaPitchedPtr data;
+extent = make_cudaExtent(width* sizeof(float4), height, depth);
+cudaMalloc3D(&amp;(d_data), extent);
+...</pre>
+
+<p>Kernel Code:</p>
+<pre>__global__ kernel(char* data, size_t pitch, ...) {
+    ...
+    float4 element = *((float4*) (data + (x*sizeof(float4) + y*pitch + z*pitch*height)));
+    ...
+}</pre>
+
+<p>The one thing I'd like to point out is the fact that we have to use <code>x*sizeof(float4)</code> for accessing the
+    data. This makes sense because <code>data</code> is a char/byte pointer at the time of the pointer arithmetic. Thus,
+    we have to move the pointer by <code>x*sizeof(float4)</code>. This musn't be done in the y and z direction because
+    the <code>sizeof(float4)</code> is already considered in the pitch (the pitch is the width of the array in byte,
+    probably padded for faster memory access).</p>

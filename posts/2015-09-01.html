@@ -1,0 +1,29 @@
+Toggle all Charts between Logarithmic and Linear Scale
+Excel
+
+<p>I had multiple charts in one Excel Worksheet and wanted to change the scale of the x-axis and y-axis to the
+	logarithmic scale. The following macro toggles between the linear and logarithmic scale for all charts:</p>
+<pre>
+Sub ChartsToggle()
+	For i = 1 To ActiveSheet.ChartObjects.Count      
+		Application.DisplayAlerts = False
+		If ActiveSheet.ChartObjects(i).Chart.Axes(xlCategory).ScaleType = xlLinear Then
+			ActiveSheet.ChartObjects(i).Chart.Axes(xlCategory).ScaleType = xlLogarithmic
+			ActiveSheet.ChartObjects(i).Chart.Axes(xlValue).ScaleType = xlLogarithmic
+		Else
+			ActiveSheet.ChartObjects(i).Chart.Axes(xlCategory).ScaleType = xlLinear
+			ActiveSheet.ChartObjects(i).Chart.Axes(xlValue).ScaleType = xlLinear
+		End If
+	Next i
+	Application.DisplayAlerts = True
+End Sub
+</pre>
+
+<p>Note the
+	<code>Application.DisplayAlerts = False</code>.
+	This prevents Excel from opening a dialog box, for every chart, informing you that negative values cannot be
+	displayed.
+	The dialog is just shown once at the end. I had to put this line inside the for-loop because it got changed back to
+	true
+	after the chart modification.
+</p>

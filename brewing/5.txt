@@ -1,0 +1,47 @@
+Pfeuti Punk IPA (4ter Versuch)
+Bemerkung: Basis Rezept von Brewdog Punk IPA 2007-2010 (Andere Hopfung)
+
+Schüttung
+  * 5.3 kg Pale Ale Malz 
+
+Brauwasser
+  * 22 l Hauptguss
+  * 9  l Nachguss mit 78 °C
+
+Maischen (Englisches Infusionsverfahren siehe S. 105 Hanghofer)
+  - Einmaischen von 13 l mit 76°C + 2 l mit 55°C -> 65 °C (Aussentemperatur: 8 °C)
+  - Nach 75 Min 7 l kochendes Wasser zubrühen -> 76 °C (Sud Temperatur: 64 °C) -> umrühren -> 73 °C
+  - Nach Jodnormalität, sedimentieren lassen und abmaischen
+
+Hopfung 
+  * Kochen nach Würzebruch: 70 Min.
+
+  * (Start) Bitterhopfung/Vorderwürze: Ahtanum (4.4%, 13 g)
+  * (Start) Bitterhopfung/Vorderwürze: Chinook (11.4%, 11 g)
+  * (Mitte) Bei Kochbegin i.e. 100°C: Crystal (3.6%, 20 g)
+  * (Mitte) Bei Kochbegin i.e. 100°C: Chinook (11.4%, 17 g)
+  * (Ende) Bei Kühlung 65 °C: Ahtanum (4.4%, 37 g)
+  * (Ende) Bei Kühlung 65 °C: Chinook (11.4%, 22 g)
+  * (Ende) Bei Kühlung 65 °C: Crystal (3.6%, 20 g)
+  * (Ende) Bei Kühlung 65 °C: Motueka (8.2%, 20 g)
+
+Hefe
+  * Wyeast 1056, American Ale
+
+Feedback
+  * Für Wasser bei Einmaischen muss ein zusätzlicher Kochtopf her. So kann man alles in den Töpfen zubereiten. 
+  * Beim Hopfenkochen ist der Topf überkocht, da der Deckel noch drauf war. Teil von Start Hopfen sind so aus dem Sud raus.
+  * 11 brix vor kochen 
+  * 16 liter würze
+  * Silikonschlauch muss mit Schelle an Weck fixiert werden, diese fiel nämlich 1x ab.
+  * Gärbottich wurde mit SeptoClean gereinigt, da das Desinfektionsmittel vom Brau&Rauchshop ausgegangen ist.
+  * Gärung war nach 4 Stunden heftig und nach 2 Tagen abrupt vorbei. Am Folgetag (also 3.5 Tage nach ansetzten) in Flaschen abgefüllt.
+  * Karbonisierung 4g CO2 / l. Beim Einfüllen von Zuckerwasser wurde tendenziell eher 3.5 ml anstatt 4 ml verwendet.
+  * Nach 2 Tagen war 1 Flasche zersprungen. Ich habe eine weiter Flasche geöffnet, um den Druck zu prüfen. Diese hatte nur mässig Druck (wie erwartet, da nur 4 g CO2 / l und etwas weniger Zuckerwasser) Vermutlich hatte die Flasche bereits einen Defekt.
+  * keine weiteren Probleme mehr mit der Karbonisierung. Die Kohlensäure ist gut.
+  * Geschmack sehr gut
+  * Schaum sehr gut
+  * Hopfennase bisher am besten aber immer noch nicht auf BrewDog Level
+  * Bitterkeit hoch aber gut.
+  * Alles in Allem top Ergebnis 
+  * Karbonisierung war am Schluss zu hoch. Vermutlich war die Hauptgärung noch nicht abgeschlossen.

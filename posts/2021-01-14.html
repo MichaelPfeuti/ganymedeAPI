@@ -1,0 +1,98 @@
+Exim & Dovecot
+Linux, Website Status
+
+<p>I finally set up my mail server with POP3 access. I just want to host couple of mail addresses which map to users on
+    the (arch-)linux system. So no fancy virtual users or LDAP. </p>
+
+<p>First, set up exim. The configuration is straight forward. Just read through the entire configuration file. It turns
+    out I needed just some adjustments. First the proper primary_homename must be set.</p>
+
+<pre>primary_hostname = ganymede.ch</pre>
+
+<p>Since I want to use TLS, the certificate and private key must be set. Don't generate any self-signed key. This just
+    causes problems because the certificate must always be added as an exception wherever it is used. So, generate a <a
+        href="https://letsencrypt.org/">Let’s Encrypt</a> certificate. Point exim to Let's Encrypt files.</p>
+
+<pre>
+tls_certificate = /etc/letsencrypt/live/ganymede.ch/fullchain.pem
+tls_privatekey = /etc/letsencyrpt/live/ganymede.ch/privkey.pem
+</pre>
+
+<p>The Let's Encrypt files can also be used for an Apache webserver. Apache is typically started with root privileges
+    which it later drops. During this phase, the certificate and private key are read by Apache. So the default
+    permission (mostly exclusively root access) of the Let's Encrypt folder works just fine for Apache. Exim on the
+    other hand reads the certificate key just when a TLS connection should be established. Hence the exim log shows
+    some TLS Error with a message like <em>system library:fopen:Permission denied</em>. An easy fix for this is to set
+    the owner of the folder <em>/etc/letsencrypt/live/</em> and <em>/etc/letsencrypt/archive/</em> to the exim user and
+    group. Clearly, this can cause problems if other users, without root privileges, need access to the files. However,
+    this is not the case in my setup.</p>
+
+<p>Next, I don't want to allow mail delivery to all local users such as the exim or http user. I just want to whitelist
+    certain users. This can be achieved by modifying the <em>localuser</em> router. Simply add <code>local_parts =
+        lsearch;/etc/mail/accepted_local_users</code>. So the router looks like this:</p>
+
+<pre>
+localuser:
+    driver = accept
+    local_parts =lsearch;/etc/mail/accepted_local_users
+    check_local_user
+    transport = local_delivery
+    cannout_route_message = Unknown user
+</pre>
+
+<p>This router only routes if check_local_user succeeds <strong>and</strong> <em>local_parts</em> can be found in the
+    <em>accepted_local_users</em> file. So, create the file <em>accepted_local_users</em> and write every username which
+    is allowed to receive E-Mails into the file. One username per line.
+</p>
+
+<p>That's it... Exim with TLS done.</p>
+
+<p>Let's look at dovecot for the POP3 access. On archlinux the dovecot configuration is split into many file. The config
+    file needs to be copied into the <em>/etc</em>folder (see the <a
+        href="https://wiki.archlinux.org/index.php/Dovecot">archlinux wiki</a>). The main config file is
+    <em>/etc/dovecot/dovecot.conf</em>. There it restricts the supported protocols to pop3
+</p>
+
+<pre>
+protocols = pop3
+</pre>
+
+<p>This main config file loads all config files from the <em>conf.d</em> subdirectory. Here I rely on the system (PAM)
+    authentication by including<em>auth-system.conf.ext</em></p>
+
+<pre>
+!include auth-system.conf.ext
+</pre>
+
+<p>Again as with exim, I want only whitelisted users to be able to login and not all system users. To achive this it is
+    possible to use the <em>username_filter</em>. Simply give it the username which are allowed to login.</p>
+
+<pre>
+passdb {
+    driver = pam
+    username_filter = my_user my_user2
+}
+</pre>
+
+<p>Of course we also want to secure the server with SSL. This is just as easy as before. Simply point dovecot to the
+    Let's Encrypt certificate and private key in <em>10-ssl.conf</em></p>
+
+<pre>
+ssl_cert = &lt;/etc/letsencrypt/live/ganymede.ch/fullchain.pem
+ssl_key = &lt;/etc/letsencrypt/live/ganymede.ch/privkey.pem
+</pre>
+
+<p>Since dovecot is run as root we don't have any permission issues.</p>
+
+<p>The last thing that needs to be done, is to tell dovecot about the mailbox format and the mailbox locations. In the
+    file <em>10-mail.conf </em>write</p>
+
+<pre>
+mail_location = mbox:~/mail:INBOX=/var/mail/%u
+</pre>
+
+<p>After that we are all done. You can receive email for the given user and access the mails through pop3 with the
+    system password for that user.</p>
+
+<p>You can also send emails from your system (for instance through mail or with php) through exim to any E-Mail address.
+</p>

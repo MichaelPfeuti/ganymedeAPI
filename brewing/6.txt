@@ -1,0 +1,53 @@
+Pfeuti Punk IPA new (1ter Versuch)
+Bemerkung: Basis Rezept von Brewdog Punk IPA 2010- (etwas mehr Pale Ale Malz)
+
+Schüttung
+  * 4.75 kg Pale Ale Malz 
+  * 0.25 kg Cara Hell
+
+Brauwasser
+  * 22 l Hauptguss
+  * 9  l Nachguss mit 78 °C (stufe 1 auf kochherd hält 78C recht gut)
+
+Maischen (Englisches Infusionsverfahren siehe S. 105 Hanghofer)
+  - Einmaischen von 13 l mit 79°C + 0.5 l mit 30°C -> 65 °C (Aussentemperatur: 28 °C)
+  - Nach 75 Min 7 l kochendes Wasser zubrühen -> 73 °C (Sud Temperatur: 65 °C)
+  - Nach Jodnormalität, sedimentieren lassen und abmaischen
+
+Hopfung 
+  * Kochen nach Würzebruch: 70 Min.
+
+  * (Start) Bitterhopfung/Vorderwürze/direkt nach Leutern: Chinook (11.4%, 20 g)
+  * (Start) Bitterhopfung/Vorderwürze/direkt nach Leutern: Ahtanum (4.4%, 12.5 g)
+  * (Mitte) 15min vor Kochende: Chinook (11.4%, 20 g)
+  * (Mitte) 15min vor Kochende: Ahtanum (4.4%, 12.5 g)
+  * (Ende) Bei Kühlung 65 °C: Chinook (11.4%, 27.5 g)
+  * (Ende) Bei Kühlung 65 °C: Ahtanum (4.4%, 12.5 g)
+  * (Ende) Bei Kühlung 65 °C: Simcoe (12.8%, 12.5 g)
+  * (Ende) Bei Kühlung 65 °C: Nelson Sauvin (11.4%, 12.5 g)
+  * (Dry) 5 Tage lang nach Vergärung: Chinook (11.4%, 47.5 g)
+  * (Dry) 5 Tage lang nach Vergärung: Ahtanum (4.4%, 37.5 g)
+  * (Dry) 5 Tage lang nach Vergärung: Simcoe (12.8%, 37.5 g)
+  * (Dry) 5 Tage lang nach Vergärung: Nelson Sauvin (11.4%, 20 g)
+  * (Dry) 5 Tage lang nach Vergärung: Cascade (11.4%, 37.5 g)
+  * (Dry) 5 Tage lang nach Vergärung: Amarillo (11.4%, 10 g)
+
+Hefe
+  * Wyeast 1056, American Ale
+
+Feedback
+  * Für Wasser bei Einmaischen muss ein zusätzlicher Kochtopf her. So kann man alles in den Töpfen zubereiten.
+  * 10 brix vor kochen 
+  * 13 liter würze
+  * Gärung war nach 2 Tagen +/- vorbei. Nach 2 Tagen start dry hopping (direkt in nylonsocken.) 
+  * 
+  * 5 Tage nach ansetzten in Flaschen abgefüllt.
+  * Karbonisierung 4g CO2 / l. Beim Einfüllen von Zuckerwasser wurde tendenziell eher 3.5 ml anstatt 4 ml verwendet.
+  * keine weiteren Probleme mehr mit der Karbonisierung. Die Kohlensäure ist gut.
+  * Geschmack sehr gut
+  * Schaum sehr gut
+  * Hopfennase bisher am besten aber immer noch nicht auf BrewDog Level
+  * Bitterkeit hoch aber gut.
+  * Alles in Allem top Ergebnis 
+  * Karbonisierung war am Schluss zu hoch. Vermutlich war die Hauptgärung noch nicht abgeschlossen.
+

@@ -1,0 +1,15 @@
+Search Bash History
+Linux
+
+<p>I keep forgetting how to enable the history search of bash. So here is how to get it:</p>
+
+<p>Put</p>
+
+<pre>
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+</pre>
+
+<p>into <code>inputrc</code>.</p>
+
+<p>This gives us the history search on <code>Page Up</code> and <code>Page Down</code></p>
