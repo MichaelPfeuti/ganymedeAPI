@@ -9,6 +9,7 @@ import os
 
 POSTS_PER_PAGE = 5
 POSTS_FODLER = "posts"
+BREWING_FOLDER = "brewing"
 TAGS_FILE = "tags.txt"
 
 app = FastAPI()
@@ -18,6 +19,8 @@ origins = [
     "http://127.0.0.1:5173",
     "http://localhost:8000",
     "http://127.0.0.1:8000",
+    "https://ganymede.ch",
+    "https://dev.ganymede.ch"
 ]
 
 app.add_middleware(
@@ -27,7 +30,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 class Post(BaseModel):
     title: str
@@ -41,14 +43,14 @@ def read_post_data(post):
         title = f.readline()
         tags = f.readline().split(",")
         html = f.read()
-    return {"title": title, "tags": tags, "html": html, "date": post}
+    return {"title": title, "tags": tags, "html": html, "date": post.split(".")[0]}
 
 
 def get_page_count(posts):
     return math.ceil(len(posts) / POSTS_PER_PAGE) 
 
 
-def get_tags():
+def get_post_tags():
     tags = dict()
     with open(TAGS_FILE) as f:
         for l in f:
@@ -56,22 +58,22 @@ def get_tags():
             tags[tags_data[0]] = tags_data[1].strip().split(",")
     return tags
 
-def get_files(tag):
+def get_post_files(tag):
     tag = urllib.parse.unquote(tag, encoding='utf-8', errors='replace')
     if(tag and tag != "all"):
-        return get_tags().get(tag, [])
+        return get_post_tags().get(tag, [])
     else:
         return os.listdir(POSTS_FODLER)
 
 @app.get("/posts/page_count")
 def posts_count(tag: Union[str, None] = None):
-    files = get_files(tag)
+    files = get_post_files(tag)
     return get_page_count(files)
 
 
 @app.get("/posts/page/{page}")
 def posts_page(page: int, tag: Union[str, None] = None):
-    files = get_files(tag)
+    files = get_post_files(tag)
     files = sorted(files, reverse=True)
     if page < 0 or page >= get_page_count(files):
         raise HTTPException(status_code=404, detail="Page not found")
@@ -84,7 +86,7 @@ def posts_page(page: int, tag: Union[str, None] = None):
 
 @app.get("/posts/tags")
 def posts_tags():
-    return list(get_tags().keys())
+    return list(get_post_tags().keys())
 
 @app.get("/languages/{lang}")
 def kiswahili(lang:str):
@@ -93,3 +95,17 @@ def kiswahili(lang:str):
             return f.read()
     except:
         raise HTTPException(status_code=404, detail="Language File not Found")
+
+@app.get("/brewing")
+def brewing_count():
+    posts = []
+    try:
+        for filename in  sorted(os.listdir(BREWING_FOLDER), reverse=True):
+            with open(os.path.join(BREWING_FOLDER, filename)) as f:
+                title = f.readline()
+                posts.append({"title": title, "content": f.read()})
+    except:
+        raise HTTPException(status_code=404, detail="Brewing Files could not be read")          
+    
+    return posts
+        
