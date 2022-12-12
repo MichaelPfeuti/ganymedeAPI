@@ -27,54 +27,42 @@ Du hast es gesehen, oder nicht? = You've already seen it, haven't you? = umeshai
 
 Mann kann einer negativen Frage (Hukuona?) mehr Gewicht geben indem man sie mit **Si** als positive Frage formuliert (Si uliona?).
 
-Man kann durch **Repetition** von Worten die Intensität erhöhen.
-
-ukate = Schneide ↔ ukatekate = Schneide in kleine Stücke
-
+Man kann durch **Repetition** von Worten die Intensität erhöhen.\
+ukate = Schneide ↔ ukatekate = Schneide in kleine Stücke\
 Kuchambua = herauslesen ↔ Kuchambuachambua = ganze genau herauslesen
 
 Wie kwenye so kann auf katika kein -ni Wort folgen. Es folgt immer ein untransformiertes Nomen.
 
-Durch voranstellen eines **m-** kann ein Verb in eine Nomen verwandelt werden.
-
+Durch voranstellen eines **m-** kann ein Verb in eine Nomen verwandelt werden.\
 Beispiele: mkaa = jemand der sitzt, mwenda = jemand der geht, mpiga picha = Fotograf.
 
-kuweza sollte nicht verwendet werden, um eine höflich Aufforderung auszudrücken. Es sollte sie -e Form (Konjunktiv) verwendet werden.
-
+kuweza sollte nicht verwendet werden, um eine höflich Aufforderung auszudrücken. Es sollte sie -e Form (Konjunktiv) verwendet werden.\
 Beispiel: Unaweza kufungua dirisha = Bist du in der Lage das Fenster zu öffnen. Ufungue dirisha = Könntest du das Fenster öffnen.
 
 Wird kuweza alleine und negativ verwendet so ist die Bedeutung "es geht jemandem schlecht" Siwezi = mit geht es schlecht/Ich fühle mich nicht gut.
 
-Anstelle von **ni** (sein Präsens) kann auch das Verbpräfix verwendet werden. Die Präfixe hier sind dieselben wie die Pronomen (= Subjektpräfixe ausser a → yu). Diese Form wird vorallen dann verwendet wenn etwas "momentan" zutrifft. Ist etwas ein premanenter Zustand so wird die **ni** Variante verwendet.
-
+Anstelle von **ni** (sein Präsens) kann auch das Verbpräfix verwendet werden. Die Präfixe hier sind dieselben wie die Pronomen (= Subjektpräfixe ausser a → yu). Diese Form wird vorallen dann verwendet wenn etwas "momentan" zutrifft. Ist etwas ein premanenter Zustand so wird die **ni** Variante verwendet.\
 Beispiele: Yu mgonjwa? = Ist sie krank? Yu macho = Ist er wach? Kisu ki (→ist) kali. Ubao u (ist) mfupi. 
 
-Das Wort "Irgendwo" und "Überall" kann mit der Relativstruktur gebildet werden.
-
+Das Wort "Irgendwo" und "Überall" kann mit der Relativstruktur gebildet werden.\
 Beispiele: Kila [mahali] tulipokwenda = Überall wo wir hingingen. Kila tuendako = wo wir auch hingehen.
 
-Ählich verhält es sich mit **-po-** jedoch in Bezug auf die Zeit.
-
+Ählich verhält es sich mit **-po-** jedoch in Bezug auf die Zeit.\
 Beispiele: Tulipokwenda = der Moment wo / wenn wir gehen. Kila [mara] aliposemo = wannimmer wenn er spricht. Kila watokapo = wannimmer sie wollen.
 
-Auch andere Worte ausser mahali oder mara können wie oben weggelassen werden.
-
+Auch andere Worte ausser mahali oder mara können wie oben weggelassen werden.\
 Beidpiel: kila [neno] asemalo = alles was er sagt.
 
-Das Wort "auch" (too, also, as well) können mit **na- + o-Form** gebildet werden. Beachte, dass eine Hervorhebung auch durch **na- + o-Form** entstehen kann. Die genaue Bedeutung wird im Kontext klar.
-
+Das Wort "auch" (too, also, as well) können mit **na- + o-Form** gebildet werden. Beachte, dass eine Hervorhebung auch durch **na- + o-Form** entstehen kann. Die genaue Bedeutung wird im Kontext klar.\
 Beispiele: Mwalimu naye alikwenda nao = Der Lehrer (Betont) ging mit ihnen | Auch der Lehrer ging mit ihnen.
 
-Eine weitere Funktion von **na- + o-Form** ist die Bedeutung von "tatsächlich/eigentlich"
-
+Eine weitere Funktion von **na- + o-Form** ist die Bedeutung von "tatsächlich/eigentlich"\
 Beispiel: Mada nayo ni utalii = Das Thema ist tatsächlich/eigentlich Tourismus
 
-Das Alter von jemandem wird mit **umri** oder **miaka** beschrieben. Und dabei sagt man "ich habe … Jahre".
-
+Das Alter von jemandem wird mit **umri** oder **miaka** beschrieben. Und dabei sagt man "ich habe … Jahre".\
 Beispiele: Una miaka arobaini tu = du bist nur 40. Ana umri gani? = Wie alt ist er?. Ana **umri wa** miaka ishirini = Er ist 20 Ana miaka mingapi? = Wie viele Jahre ist er alt? Ana miaka hamsini = Er ist 50 Jahre alt.
 
-Um zu betonen das etwas immer noch vor sich geht kann **bado** verwendet werden (siehe auch die "noch nicht" Bedeutung von bado mit **-ja-**).
-
+Um zu betonen das etwas immer noch vor sich geht kann **bado** verwendet werden (siehe auch die "noch nicht" Bedeutung von bado mit **-ja-**).\
 Beispiele: Watoto wamelala bado = Die Kinder sind immer noch am schlafen. Bado yu mtoto = Er ist immer noch ein Kind. Mukami yumo jikoni bado = Mukami ist immer noch in der Küche.
 
 Als einfache Regel kann man sich merken, dass einsilbige Verben das **ku-** Präfix behalten in der nicht negierten Form (na, li, me, ta) und auch in der negativen Zukunftsform .
@@ -101,25 +89,20 @@ Der Augmentativ von einem Nomen wird mit gebildet indem man das Nomen in die **j
 
 Es gibt verschiedene Varianten zu sagen, dass etwas ist.
 
-Man verwendet eines der Wörter **kuliko, zaidi ya, kuzidi, kushinda, kupita**, um zu sagen, dass etwas grösser, höher, besser, etc.
-
+Man verwendet eines der Wörter **kuliko, zaidi ya, kuzidi, kushinda, kupita**, um zu sagen, dass etwas grösser, höher, besser, etc.\
 Beispiele: Mmoja no mkubwa kuliko wengine = Einer ist grösser als die anderen.  Kikapu chako ni kikubwa kuliko/kuzidi/kushinda chake = Dein Korb ist grösser als ihrer.
 
-Man kann **zaidi** alleine verwenden, um grösser zu sagen, ohne einen formellen Vergleich anzustellen.
-
+Man kann **zaidi** alleine verwenden, um grösser zu sagen, ohne einen formellen Vergleich anzustellen.\
 Beispiel: Mmoja ni mkubwa zaidi = Einer ist grösser.
 
-Um zu sage, dass etwas am grössten, besten, … ist, verwendet man entweder **mno, sana** oder **kushinda/kuliko/kupata/zaidi ya/kuzidi -ote**.
-
+Um zu sagen, dass etwas am grössten, besten, … ist, verwendet man entweder **mno, sana** oder **kushinda/kuliko/kupata/zaidi ya/kuzidi -ote**.\
 Beispiele:Mti ulio mrefu sana = Der höchste Baum. Nipe papai lililo kubwa mno = Gib mir die grösste Papaya.  Kikapu chako ni kikubwa  kushinda [vikapu] vyote = Dein Korb ist der grösste (grösser als alle Körbe).
+lililo im Beispiel macht die Papaya ein definiertes Objekt. 
 
-lililo im Beispiel man die Papaya ein definiertes Objekt. 
-
-**mno** wird auch verwendet um zu sagen, dass etwas zu klein, gross, … ist.
+**mno** wird auch verwendet um zu sagen, dass etwas zu klein, gross, … ist.\
 Beispiel: Sipendi papai hili, ni dogo mno = Ich mag diese Papaya nicht, sie ist zu klein 
 
-Um zu sagen, dass zwei Dinge gleich gross, schön, … sind, verwende **sawa na** oder **kama**.
-
+Um zu sagen, dass zwei Dinge gleich gross, schön, … sind, verwende **sawa na** oder **kama**.\
 Beispiele: Paka huyu ni mkubwa sawa na/kama yule = Paka huyu ni sawa na/kama yule kwa ukubwa = Diese Katze ist gleich. gross wie diese dort.
 
 ### Subjektpronomen
@@ -141,8 +124,7 @@ Die mahali Klasse beinhaltet auch die **-ni** transformierten Worte. Diese -ni W
 
 Werden Nomen aus verschiedenen Klassen aufgelistet so wird entwender **vi-** (von vitu = Dinge) verwendet oder die Klasse des letzten Nomens in der List.  Lebewesen und Nicht-Lebewesen sollten durch ein **na** getrennt, also separat, aufgelistet werden.
 
-Um ein Infinitif zu negieren wird das Infix **-to-** verwendet.
-
+Um ein Infinitif zu negieren wird das Infix **-to-** verwendet.\
 Beispiel: kupiga = zu schlagen, kutopiga = nicht zu schlagen
 
 ### Personalpronomen/Objektpronomen
@@ -160,33 +142,24 @@ u|-u-|-zi-
 mahali|-pa-|-pa-
 ku|-ku-|-ku-
 
-Die Ausnahme bildet **-ji-** welches sich auf das Subjekt selbst bezieht, also im Sinne von sich selber.
-
-Beispiel: ananiona, nilijiandika
-
-Achtung das -ji- Infix kann die Bedeutung von Worten ändern.
-
+Die Ausnahme bildet **-ji-** welches sich auf das Subjekt selbst bezieht, also im Sinne von sich selber.\
+Beispiel: ananiona, nilijiandika\
+Achtung das -ji- Infix kann die Bedeutung von Worten ändern.\
 Beispiel: walijifanya watalii = Sie taten so als wären sie Touristen/Sie verkleideten sich als Touristen.
 
-Wenn das Ziel des Pronomens angegeben werden muss/soll so folgt dies direkt auf das Verb. Ist das Ziel jedoch ein ganzer Relativsatz so kommt der Relativsatz am Schluss.
-
+Wenn das Ziel des Pronomens angegeben werden muss/soll so folgt dies direkt auf das Verb. Ist das Ziel jedoch ein ganzer Relativsatz so kommt der Relativsatz am Schluss.\
 Beispiele: Nitampa *Francis* mananasi. Tuliwapa *watoto* mayai. Abiria huwapa vitu *wale waliopo mbele*.
 
-Wird das Objektpronomen verwendet, so wird das Objekt bestimmt anstelle von unbestimmt. In sehr formeller Sprache wird jedoch bei Personen immer das Pronomen verwendet auch für unbestimmte Personen. Bei Objekten wird das Pronomen aussschiesslich verwendet wenn das Objekt definiert ist.
-
-Tulimwona mzee = Wir sahen den alten Mann
-
-Tuliona mzee = Wir sahen einen alten Mann
-
+Wird das Objektpronomen verwendet, so wird das Objekt bestimmt anstelle von unbestimmt. In sehr formeller Sprache wird jedoch bei Personen immer das Pronomen verwendet auch für unbestimmte Personen. Bei Objekten wird das Pronomen aussschiesslich verwendet wenn das Objekt definiert ist.\
+Tulimwona mzee = Wir sahen den alten Mann\
+Tuliona mzee = Wir sahen einen alten Mann\
 Tulimwona = Wir sahen ihn
 
-Beachte auch folgende Konstruktion
-
+Beachte auch folgende Konstruktion\
 Tuliona mzee mmoja = Wir sahen einen gewissen Mann
 
 Achtung: In Swahili wird das Objektpronomen nicht verwendet um etwas speziell zu betonen. Wenn ein Objekt speziell hervorgehoben werden soll, so wird die Reihenfolge der Worte geändert. Mann beginnt mit dem betonten Wort. In dem Fall ist das Objektpronomen zwingend.
-Nguo hizi, ulizinunua? = *Diese* Kleider hast zu gekauft?
-
+Nguo hizi, ulizinunua? = *Diese* Kleider hast zu gekauft?\
 Wird das Pronomen nicht direkt im Satz integriert so werden, die Worte mimi, wewe, yeye, sisi, ninyi, wao verwendet.
 
 #### Objektpronomen / -o Form
@@ -202,17 +175,16 @@ n|i+o= yo|zi+o = zo
 ji/ma|li+o = lo|ya+o = yo
 u|u+o = o|zi+o = zo
 
-Una ndizi? ninazo.
+Una ndizi? ninazo.\
 Wana vitabu vya Kiswahili? Wanavyo.
 
 Achtung: Negative werden ohne -o Form gebildet. Es kann so geantwortet werden: Mini, sina.
 
-Es wird wie oben auch ein Objekt definiert.
-
-Unazo ndizi? = Hast du die Bananen?
+Es wird wie oben auch ein Objekt definiert.\
+Unazo ndizi? = Hast du die Bananen?\
 Una ndizi? = Hast du Bananen?
 
-Andere Zeitformen als das Präsens werden wie mit **kuwa + na-o** gebildet.
+Andere Zeitformen als das Präsens werden wie mit **kuwa + na-o** gebildet.\
 Beispiele: Rehema antakuwa nazo = Rehema wird sie (die Bananen) haben.
 
 ### Relativpronomen
@@ -221,46 +193,37 @@ Beispiele: Rehema antakuwa nazo = Rehema wird sie (die Bananen) haben.
 
 Die nachfolgende Konstruktion kann nur für die Zeiten -li-, -na-, -taka- verwendet werden.
 
-Relativpronomen werden wie die **-o-** Form gebildet und nehmen dieselbe Position ein wie die restlichen Personal/Objektpronomen. Der Nebensatz bezieht sich auf das Subjekt und spezifiziert es genauer.
-
+Relativpronomen werden wie die **-o-** Form gebildet und nehmen dieselbe Position ein wie die restlichen Personal/Objektpronomen. Der Nebensatz bezieht sich auf das Subjekt und spezifiziert es genauer.\
 Beispiel: Yule anayekaa Dar = Der dort, welcher in Dar lebt, Wale wanaokaa Dar = Diese dort, welche in Dar leben.
 
-Um Orte genau zu spezifizieren werden die Verbpräfixe **ku-, pa-, ma- + o = ko, po, mo** verwendet. Die po Variante wird aber fast ausschliesslich Zeitlich verwendet werden. Dies entspricht der **-po-** Form unten.
-
+Um Orte genau zu spezifizieren werden die Verbpräfixe **ku-, pa-, ma- + o = ko, po, mo** verwendet. Die po Variante wird aber fast ausschliesslich Zeitlich verwendet werden. Dies entspricht der **-po-** Form unten.\
 Beispiel: chumbani alimokaa = das Zimmer in welchem er war, mahali alipokwenda = der Ort wo er hinging.
 
-Beachte dass in Swahili das Relativpronomen immer vorhanden sein muss. Im Englischen kann es wegelassen werden (The people [] I saw).
-
-Beispiele: Watu niliowaona ni Wamarekani = Die Leute die ich sah (sie) waren Amerikaner, Alinipa kitabu alichonunua = Er gab mit das Buch welches er kaufte (es)
-
+Beachte dass in Swahili das Relativpronomen immer vorhanden sein muss. Im Englischen kann es wegelassen werden (The people [] I saw).\
+Beispiele: Watu niliowaona ni Wamarekani = Die Leute die ich sah (sie) waren Amerikaner, Alinipa kitabu alichonunua = Er gab mit das Buch welches er kaufte (es)\
 Neben den Relativpronomen sind hier auch die Objektpronomen vorhanden. Diese sind korrekt und notwendig, werden aber häufig weggelassen.
 
-Die **Negation des Relativpronomens** wird **-si-** anstelle das Zeitmarkers -li-, -na-, -taka- verwendet. Somit ergibt sich eine **zeitlose Form** (siehe unten).
-
+Die **Negation des Relativpronomens** wird **-si-** anstelle das Zeitmarkers -li-, -na-, -taka- verwendet. Somit ergibt sich eine **zeitlose Form** (siehe unten).\
 Beispiel: Asiyekuwa na tiketi hapandi treni = Der ohne Ticket steigt nicht in den Zug
 
 #### amba-
 
-Die **amba** Konstruktion kann in allen Zeiten und bei Negativsätzen (si) verwendet werden (-o nur bei -li-, -na-,-taka-). Dabei wird das relativ Suffix (siehe oben) angehängt. Beachte, dass in diesem Fall der Zukunftsmarker -ta- bleibt und nicht zu -taka- ändert.
-
+Die **amba** Konstruktion kann in allen Zeiten und bei Negativsätzen (si) verwendet werden (-o nur bei -li-, -na-,-taka-). Dabei wird das relativ Suffix (siehe oben) angehängt. Beachte, dass in diesem Fall der Zukunftsmarker -ta- bleibt und nicht zu -taka- ändert.\
 Beispiele: vitu ambavyo si mali yetu = die Dinge welche nicht unser Eigentum sind. watalii ambao wataondoka kesho  = die Touristen welche morgen aufbrechen werden. watot ambao hawapendi wali = die Kinder welche Reis nicht mögen.
 
-amba- wird auch verwendet für Relativsätze mit "an/auf/in/zu welchem/wessen/dessen".
-
+amba- wird auch verwendet für Relativsätze mit "an/auf/in/zu welchem/wessen/dessen".\
 Beispiel: Nimemwona bibi ambaye mwanawe yupo Tanga = Ich habe die Frau gesehen, dessen Sohn in Tanga ist. Tunatafuta lile duka ambalo ndani yake mna mshonaji = Wir suchen einen Laden in welchen es ein Schneider gibt. Walinipa kitanda ambacho godoro lake ni jipya = Sie gaben mir ein Bett dessen Matratze neu war. Mtu ambaye nyuma yake nimeiafuta = Ein Mann dessen Haus ich gesucht habe. mtu ambaye nyumba yake imeuzwa = ein Mann dessen verkauft wurde.
 
 #### Zeitlose Relativpronomen
 
-Hier werden dieselben Suffixe wie bei der -o Form verwendet. Es werden aber keine Zeitmarker verwendet und die -o Form kommt an das Ende (bei -li-, -ni-, -taka- gibt es den Zeitmarker und der Relativmarker kommt nach dem Zeitmarker). Da hier keine Zeit verwendet wird werden hiermit generelle Aussagen gemacht.
-
+Hier werden dieselben Suffixe wie bei der -o Form verwendet. Es werden aber keine Zeitmarker verwendet und die -o Form kommt an das Ende (bei -li-, -ni-, -taka- gibt es den Zeitmarker und der Relativmarker kommt nach dem Zeitmarker). Da hier keine Zeit verwendet wird werden hiermit generelle Aussagen gemacht.\
 Beispiel: Bila shaka  utapanda basi iondokayo saa nne = Ohne Zweifel wirst du in den Bus steigen, der um zehn aufbricht. (Der Bus fährt jeden Tag um zehn ab. Würde er nur heute um zehn ab, würde man itakayoondoka sagen) 
 
 Beispiel: watu wakaao mjini = Leute die in der Stadt leben, wiki **ijayo** = nächste Woche (die Woche welche kommen wird), mwezi **ujao** = nächster Monat.
 
 Die negative Form entspricht der negativen Form von -li-, -ni-, -taka-.
 
-Speziell seien hier no **kunako, panapo, mnamo** genannt welche zeitlose Relativpronomen für Zeit oder Ort verwendet werden.
-
+Speziell seien hier no **kunako, panapo, mnamo** genannt welche zeitlose Relativpronomen für Zeit oder Ort verwendet werden.\
 Beispiele: Kunako jioni =irgendwann am Abend. mnamo saa tisa = so um drei Uhr. Atatafuta kazi huko kunako mahoteli mengi = Er wird für Arbeit suchen wo es viele Hotels gibt. Tia mnamo maji = Tu es dahin wo es Wasser hat.
 
 #### sein/haben
@@ -271,18 +234,14 @@ niliye, uliye, aliye, = [ich, du, er/sie] welcher bin/bist/ist… tulio, mlio, w
 
 Beispiel: Mpe mtu aliye fundi = Gebt es jemandem der Handwerker ist. Tunza masanduku yaliyo mali yake = Schaut nach den Kisten welche sein Eigentum sind.
 
-Die negative Form wird mit **-si-** anstelle von -li- gebiltet.
-
+Die negative Form wird mit **-si-** anstelle von -li- gebiltet.\
 Beispiel: tusio wauguzi = wir welche keine Krankenschwestern sind. asiye mgonjwa = er welcher keine Kranker ist.
 
-Will man auf die Position/den Ort hinweisen so kann ein Objektmarker (**-ko, -mo, -po**) an das Ende gehängt werden. Der Ort wird so betont und hervorgehoben.
-
-Beispiel: watu waliopo mbele = die Leute welche vorne sind.  mayai yaliyomo kikapuni = die Eier welche im Korb sind. Miti iliyoko shambani = die Bäume welche auf den Feld stehen.
-
+Will man auf die Position/den Ort hinweisen so kann ein Objektmarker (**-ko, -mo, -po**) an das Ende gehängt werden. Der Ort wird so betont und hervorgehoben.\
+Beispiel: watu waliopo mbele = die Leute welche vorne sind.  mayai yaliyomo kikapuni = die Eier welche im Korb sind. Miti iliyoko shambani = die Bäume welche auf den Feld stehen.\
 Häufig wird nach -li einfach -o verwendet, niliomo anstatt niliyemo
 
-Um "haben" auszudrücken wird dieselbe Konstruktion wie bei "sein" angewendet und mit **na** ergänzt.
-
+Um "haben" auszudrücken wird dieselbe Konstruktion wie bei "sein" angewendet und mit **na** ergänzt.\
 Beispiele: aliye na pesa = der, der Geld hat. 
 
 Für andere Zeitformen als Präsens, wird aus die anderen Relativkonstruktionen zurückgegriffen.
@@ -293,28 +252,21 @@ Singular |Plural
 ---|---
 -angu -ako -ake|-etu -enu -ao
 
-M/WA Klasse ist das Präfix zu den Possesivpronomen immer **wa-**
-
+M/WA Klasse ist das Präfix zu den Possesivpronomen immer **wa-**\
 Beispiel: mke wangu, watoto wake
 
-Bei den restlichen Klassen ist das Präfix das Verbpräfix.
-
+Bei den restlichen Klassen ist das Präfix das Verbpräfix.\
 Beispiel: kiti changu
 
-Ein Sonderfall bieten alle **Lebewesen**. Bei allen Lebewesen wird  **wa-** wie bei der M/WA Klassen gebraucht.
-
+Ein Sonderfall bieten alle **Lebewesen**. Bei allen Lebewesen wird  **wa-** wie bei der M/WA Klassen gebraucht.\
 Beispiel: Viboko wako, madaktari wao.
 
-Inbesondere auch Tiere die in Einzahl und Mehrzahl gleich sind wie simba, kuku, mbu,… Hier kann also nur aus dem Kontext erkannt werden, ob es sich um Ein- oder Mehrzahl handelt
-
-Beispiel: Simba wetu = Unser Löwe/Unsere Löwen
-
-**Ausnahme**: Bei Lebewesen/Personen aus der Familie bei welche Ein- und Mehrzahl identisch sind wird nicht wa- verwendet sondern i-/zi- (wie bei der n-Klasse. Somit lässt sich hier Ein- und Mehrzahl unterscheiden.
-
+Inbesondere auch Tiere die in Einzahl und Mehrzahl gleich sind wie simba, kuku, mbu,… Hier kann also nur aus dem Kontext erkannt werden, ob es sich um Ein- oder Mehrzahl handelt\
+Beispiel: Simba wetu = Unser Löwe/Unsere Löwen\
+**Ausnahme**: Bei Lebewesen/Personen aus der Familie bei welche Ein- und Mehrzahl identisch sind wird nicht wa- verwendet sondern i-/zi- (wie bei der n-Klasse. Somit lässt sich hier Ein- und Mehrzahl unterscheiden.\
 Beispiel: mama yetu, mama zetu, rafiki zangu
 
-**-ao** wird nur verwendet wenn das besitzende Objekt Menschen oder Tiere sind. Ist das besitzende Objekt nicht lebendig (Lebewesen) so wird **-ake** verwendet, auch wenn mehrere Objekte etwas besitzen wird nicht das Plural **-ao** verwendet sondern das Singular **-ake**.
-
+**-ao** wird nur verwendet wenn das besitzende Objekt Menschen oder Tiere sind. Ist das besitzende Objekt nicht lebendig (Lebewesen) so wird **-ake** verwendet, auch wenn mehrere Objekte etwas besitzen wird nicht das Plural **-ao** verwendet sondern das Singular **-ake**.\
 Beispiel: Der Preis der Bananen = bei yake und nicht bei yao.
 
 ### Demonstrativpronomen
@@ -327,15 +279,13 @@ ki/vi|hiki|hivi|kile|vile|hicho|hivyo
 n|hii|hizi|ile|zile|hiyo|hizo
 ji/ma|hili|haya|lile|yale|hilo|hayo
 u|huu|hizi|ule|zile|huo|hizo
-mahali||hapa||pale||hapo (hamo, hako)
-ku||huku||kule||huko
+mahali|hapa||pale||hapo (hamo, hako)
+ku|huku||kule||huko
 
-Hayo wird verwendet um allgemein auf gesagtes oder geschehenes zu referenzieren. Hayo bezieht sich auf mambo, was aber nicht gesagt werden muss (aber natürlich kann).
-
+Hayo wird verwendet um allgemein auf gesagtes oder geschehenes zu referenzieren. Hayo bezieht sich auf mambo, was aber nicht gesagt werden muss (aber natürlich kann).\
 Beispiele: Ni nani aliyesema hayo? = Wer hat das (diese Dinge) gesagt?
 
-Um "dasselbe" zu sagen wiederholt man das Demonstrativpronomen der Nähe oder Ferne.
-
+Um "dasselbe" zu sagen wiederholt man das Demonstrativpronomen der Nähe oder Ferne.\
 Beispiel: mtu huyu huyu = deselbe Mensch. Sema hivyo hivyo = Sag dasselbe.
 
 ### -ni Lokativsuffix
@@ -343,14 +293,15 @@ Beispiel: mtu huyu huyu = deselbe Mensch. Sema hivyo hivyo = Sag dasselbe.
 Das Anhängen von **-ni** an ein Nomen macht ein adverbial Nomen des Ortes und das Nomen gehört in die mahali-Klasse. Es gibt Worte an welche -ni nicht angehängt werden kann. Typischerweise sind dies loan-words z.B. pwani. Es werden teilweise auch Worte welche einen Ort beschreiben nicht mit -ni versehen z.B. pokituo cha polisi/ndege (=Polizeistation/Flughafen).
 
 Die **-ni** transformierten Nomen gehören technisch in die mahali Klasse. Sie können aber neben pa- auch noch zwei weiter Präfixe/Ortmarker verwenden.
-|pa-| Position an einem Ort | bestimmter Ort
-|m(u)-| Position innerhalb eines Ortes|
-|ku- |Bewegung zu/weg von einem Ort |unbestimmter Ort
+Präfix| Verwendung | Bedeutung
+---|---|---
+pa-| Position an einem Ort | bestimmter Ort
+m(u)-| Position innerhalb eines Ortes|
+ku- |Bewegung zu/weg von einem Ort |unbestimmter Ort
 
 Beispiele: Jikoni mna mtoto (in der Küche ist das Kind), Mlangoni pana jembe (Bei der Tür ist die Hacke), Sokoni kuna mayai (Aus dem Markt gibt es Eier).
 
-Bei anderen Nomen wird meist **katika (in, nach, auf, während)** verwendet.
-
+Bei anderen Nomen wird meist **katika (in, nach, auf, während)** verwendet.\
 Beispiel: Watoto wanaingia katika gari kubwa. Katika sahani kuna ndizi.
 
 Die Frage nach dem Ort wird mit **-ko/-mo/-po wapi?** gebildet. Für Aussagen der Art "sein an einem Ort" wird im Präsens die folgende Form verwendet. Diese drei Suffixe werden mit den oben genannten Präfixe + o gebildet.
@@ -376,40 +327,34 @@ ku|kuko|kuko
 
 Die Negation wird mit dem üblichen **ha-** Präfix gebildet.
 
-Für alle anderen Zeiten ausser dem Präsens wird **kuwa** verwendet.
-
+Für alle anderen Zeiten ausser dem Präsens wird **kuwa** verwendet.\
 Beispiel: yumo → alikuwamo, atakuwamo
 
 Wird ein Nomen mit **-ni** in die mahali Klasse transformiert, also ein adverbiales Nomen des Ortes, so hat dies Einfluss auf den Genitiv, das Possesivpronomen und das Demonstrativpronomen.
 
-&nbsp;| mo |po | ko
+&nbsp;| mo |po | ko 
 ---|---|---|---
 Genitiv| mwa | pa | kwa
-Possesivpronomen| mwangu, mwako, mwake, mwetu, mwenu,mwao| pangu, pako, pake, petu, penu, pao| kwangu, kwako, kwake, kwetu, kwenu, kwao
+Possesivpronomen| mwangu, mwako, mwake<br />mwetu, mwenu,mwao| pangu, pako, pake<br />petu, penu, pao| kwangu, kwako<br />kwake, kwetu, kwenu, kwao
 Demonstrativ (diese, jene) | humu mle | hapa pale | huku kule 
 
-Um "es hat/gibt [nicht]" auszudrücken wird kuna/hakuna verwendet. Dabei wird das mahali weggelassen. Auch bei den Demostrativpronomen wird mahali weggelassen.
-
-Beispiele: [mahali] hakuna matata = es gibt keine Probleme = [der Ort hat keine Probleme].
-
+Um "es hat/gibt [nicht]" auszudrücken wird kuna/hakuna verwendet. Dabei wird das mahali weggelassen. Auch bei den Demostrativpronomen wird mahali weggelassen.\
+Beispiele: [mahali] hakuna matata = es gibt keine Probleme = [der Ort hat keine Probleme].\
 [mahali] hapa  = hier = dieser Ort
 
 ### An einem Ort sein
 
-**Irgendwo dort/in Ort** (Ort nicht in Sicht) wird mit **huko + Ort** ausgedrückt.
-
+**Irgendwo dort/in Ort** (Ort nicht in Sicht) wird mit **huko + Ort** ausgedrückt.\
 Beispiel: Huko Dar es Salaam
 
-Es wird **kuwa + Ortmarker** verwendet um zu sagen, dass etwas oder jemand an einem Ort war/sein wird. Die Gegenwart wird wie immer beim Verb Sein abgekürzt, also ni + Ortmarker, u + Ortmarker, …
-
+Es wird **kuwa + Ortmarker** verwendet um zu sagen, dass etwas oder jemand an einem Ort war/sein wird. Die Gegenwart wird wie immer beim Verb Sein abgekürzt, also ni + Ortmarker, u + Ortmarker, …\
 Beispiel: Rehema alikuwapo Kenya = Rehema war in Kenia , Rehema amo ofisini = Rehema ist im Büro.
 
 In gewissen Regionen wird anstelle von kuwa, **kuwe** verwendet. Die Bedeuutung ist absolut identisch, es sind beide Variante korrekt. Dies führt zum Beispiel zu alikuwepo.
 
 In der **Gegenwart muss** niko, uko,… verwendet werden. In den anderen Zeiten wird nilikuwako primär verwendet, um zu sagen "ich war dort" ohne den Ort anzugeben. Ist der Ort gegeben braucht es das suffix nicht. Also nilikuwa Tansania ist korrekt.
 
-**-po** als Suffix bezieht sich immer auf einen Ort. Will man **po** zeitlich verwenden, muss man es als Infix verwenden.
-
+**-po** als Suffix bezieht sich immer auf einen Ort. Will man **po** zeitlich verwenden, muss man es als Infix verwenden.\
 Beispiel: nilipokuwa = als ich war, nilikuwapo = wo ich war
 
 -ko wird umgangssprachlich auch verwendet, um zu sage wie viele man ist (tuko watatu) oder auch um zu sagen wie es einem geht (uko salama?) 
