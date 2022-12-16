@@ -1,0 +1,50 @@
+Binding JavaScript and CSS in Svelte
+Programming
+
+<p>Binding a JavaScript variable to HTML elements is straight forward and one of the main features of modern web frameworks. In Svelte you achieve this by wrapping the JavaScript variable in curly braces in the HTML part of your component.</p>
+
+<pre>
+<script>
+	let myVar = "Some content stored in a variable.";
+  let myColor = "blue";
+</script>
+
+<p style="color: {myColor};">{myVar}</p>
+</pre>
+
+<p>In this example we directly set the color directly in the HTML code. However, you usually want to seperate the styling from the HTML code to keep your code clean.</p>
+
+<pre>
+<script>
+	let myVar = "Some content stored in a variable.";
+  let myColor = "blue";
+</script>
+
+<p>{myVar}</p>
+
+<style>
+  p { 
+    color: red;
+  }
+</style>
+</pre>
+
+<p>Now we want to bind the variable <code>myColor</code> to the CSS color property of the p-element. Using the same syntax as in the HTML part does not work. So writing <code>color: {myColor};</code> results in an error. Instead we can work around this issue by setting a CSS variable in the <code>style</code> attribute of the HTML element.</p>
+
+<pre>
+<script>
+	let myVar = "Some content stores in a variable.";
+  let myColor = "red";
+	setTimeout(() => {  myColor="blue"; }, 5000);
+</script>
+
+<p style="--myColor:{myColor}">{myVar}</p>
+
+<style>
+  p { 
+    color: var(--myColor);
+  }
+</style>
+</pre>
+
+<p>We still have to add the code for setting the CSS variableto the HTML element but, in my opinion, this is still a nice and clean separation of HTML and CSS code.</p>
