@@ -1,0 +1,26 @@
+Horizontal Scrollbar in Markdown Tables
+Programming
+
+<p>I'm using the JavaScript library <a href="https://marked.js.org/">Marked</a> for rendering Markdown content. By default, the rendered tables do not have the <code>overfolow-x: auto</code> property. So, if tables get too large they may mess up the styling. An easy fix can be to automatically use a horizontal scrollbar by setting the overflow style to <code>overfolow-x: auto</code>. The Marked library is pretty flexible and allows you to customize how elements are rendered. You can submit a custom renederer for tables as follows:</p>
+
+<pre>
+ const renderer = {
+      table(header, body) {
+          if (body) body = `&lt;tbody&gt;${body}&lt;/tbody&gt;`;
+          return `&lt;div style="overflow-x:auto"&gt;
+              &lt;table&gt;
+              &lt;thead&gt;
+              ${header}
+              &lt;/thead&gt;
+              ${body}
+              &lt;/table&gt;
+              &lt;/div&gt;`;
+      },
+  };
+  marked.use({ renderer });
+  
+  let text = "...SOME MARKDOWN WITH TABLES...";
+  let source = marked.parse(text);
+</pre>
+
+<p>For more information about how to customize Marked further visit the <a href="https://marked.js.org/using_pro">Extensibility section of the documentation.</a></p>
