@@ -379,6 +379,9 @@ Beispiel: Mtoto anaimba vizuri = Das Kind singt schön.
 Mit **-vi-** (Adverb-marker) und dem **-o-** Relativmarker (⇒ **-vyo-**) können Relativnebensätze der Form *in der Art wie* gebildet werden. \
 Beispiele: Ni kama alivyosemo = Es ist wie er sagt. Fanya kama upendavyo = Mach es wie es dir gefällt. Sipendi namna alivyoshona shati = Ich mag nicht wie er das Hemd genäht hat. Soma kadiri uwazavyo = Lerne so fest du kannst. Sijui jinsi walivyounda jahazi lile = Ich weiss nicht wie sie dieses Schiff dort gebaut haben.
 
+Man kann auch **jinsi ya** oder **namna ya** verwenden um zu sagen wie etwas gemacht wird. Diese und die -vi- Variante unterscheiden sich in der Allgemeinheit der Aussage. Mit jinsi ya/namna ya wird etwas sehr allgemeines ausgedrückt. Mit -vi- wird gesagt, wie jemand etwas macht, also wie diese Person das im Speziellen macht.\
+Beispiele: Ninajua jinsi ya kupika, Tuambie namna ya kupika ugali.
+
 ### Kwa
 
 **Kwa** hat viele Funktionen. Eine davon ist die Beschreibung wie etwas gemacht wird oder wofür etwas gemacht wird. Sema kwa Kiswahili (Sag es in Suaheli) oder Kwa nini? (Wieso?)
@@ -572,7 +575,7 @@ Vergangenheit Perfekt **|-me-|-ja- (not yet)
 Futur |-ta-|-ta-
 Konditional*** I (Präsens)|-nge-|-signe-
 Konditional*** II (irrealis/Vergangenheit)|-ngali-|-singali-
-bereits****| -mesha-|
+bereits****| -mesha-/-lisha- |
 wenn/falls/continuous -ing Form| -ki-/-po- | -sipo-
 Erzählung/Folgesatz*****| -ka-|identisch zur negativen e-Form
 past/future continuous -ing Form******| -likuwa /-takuwa + -ki-/-na- | h-kuwa/h-takuwa + -ki-/-na-
@@ -594,7 +597,7 @@ Beachte auch, dass Konditionalsätze auch mit -po- gebildet werden können.\
 Beispiel: Ninapokuwa na afya nitaenda kazini.\
 -ngali- wird nicht mehr aktiv verwendet. Man verwendet einfach -nge-.
 
-**** Das Infix **-mesha-** kommt von -mekwisha + ku-. Es bedeutet etwas wurde bereits gemacht/abgeschlossen. \
+**** Das Infix **-mesha-** kommt von -mekwisha + ku- bzw. -likwisha + ku-.. Es bedeutet etwas wurde bereits gemacht/abgeschlossen. \
 Beispiele: Umekwisha kuiona → Umeshaione = Du hast beendet es zu sehen → Du hast es bereits gesehen.\
 Natürlich kann man auch die -mekwisha + ku- Variante verwendet. Diese wird jedoch selten in der gesprochenen Sprache verwendet. In der Schriftsprache findet die lange Variante aber Verwendung.\
 
