@@ -2,6 +2,43 @@ Portable VS Code with Python - kind of
 Programming
 
 <p>I wanted to create a portable VS Code with Python and git integrated for Windows. As it turns out each component has a portable versions.</p>
+
 <p>Git provides a portable Windows build (<a href="https://git-scm.com/download/win">see here</a>). So no problemo at this front.</p>
-<p>As for Python, there exists a "<a href="https://www.python.org/downloads/windows/">Windows embeddable package</a>". This is simply a barebone version of python. Specifically, <code>pip</code> is not included. 
+
+<p>As for Python, there exists a "<a href="https://www.python.org/downloads/windows/">Windows embeddable package</a>". This is simply a barebone version of python. Specifically, <code>pip</code> is not included. To install <code>pip</code> you can run the pip bootstrap script which can be obtained from the <a href="https://pip.pypa.io/en/stable/installation/">PYPA Site</a>. Essentially you need 
+<ol><li>to download the <code>get-pip.py</code> script from <a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a> and then</li>
+ <li>run the script from folder containing your python executable by <code>python.exe get-pip.py</code>.</li>
+ <li>Finally you must tell Python to look for the pip installed packages by uncommenting the line <code>import site</code> in the file <code>python311._pth</code> (311 is the downloaded Python version).</li>
+</ol>
+Note that you cannot run <code>pip</code> directly from the command line because the executable is no in the %PATH% variable. So to install a package with pip you execute it through python by running <code>python -m pip install matplotlib</code>.
+</p>
  
+<p><a href="https://code.visualstudio.com/docs/editor/portable">VS Code be easily turned into portable mode</a> by downloading and extracting the ZIP version of the Windows build. In the folder where the executable <code>Code.exe</code> is located, create a new folder named <code>data</code>. That's it. All user setting and extensions will be installed in the data folder. Unfortunately, the current VS Code release has a bug which kind of breaks the portability. The extensions won't be loaded if you move the VS Code folder to a different path. To fix this delete the files <code>extensions.json</code> and <code>.init-default-profile-extensions</code> in the folder <code>data\extensions\</code>. According to the <a href="https://github.com/microsoft/vscode/issues/169006">bug report</a> this issue should be fixed soon.
+</p>
+
+<p>What remains to be done is configure VS Code properly. First we install the Python and Jupyter extension. VS Code will ask you to specify the python interpreter once you try to run python code. <br />
+ To integrate Portable git add the following settings to your <code>settings.json</code> (either from with VS Code or directly in <code>data\user-data\User\settings.json</code>
+ 
+ <pre>
+ {
+    "git.path": "C:\\PortableGit-2.39.0.2-64-bit\\bin\\git.exe",
+    "git.enabled": true,
+    "terminal.integrated.profiles.windows": {
+        "GitBash": {
+            "path": "../PortableGit-2.39.0.2-64-bit/bin/bash.exe",
+            "icon": "terminal-bash"
+        },
+    },
+}
+</pre>
+
+Notice that the <code>git.path</code> is an absolute path. I couldn't figure out how to set a relative path. I kept getting a error when cloning a repo with the git extension. The part with <code>terminal.integrated.profiles.windows</code> addes GitBash as an terminal which can be selected in VS Code.
+</p>
+
+<p>That's it apart from some minor issues this should work. So remember
+<ul>
+ <li>Delete the extension files to cause VS Code to load the extensions</li>
+ <li>Set the Python Interpreter when asked by VS Code</li>
+ <li>Set the absolute <code>git.path</code></li>
+</ul>
+</p>
