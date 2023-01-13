@@ -473,13 +473,27 @@ Es wird auch das Suffix *-ga* verwendet um wiederkehrende (z.B. tägliche) Handl
 
 ### -i- / -e- Für jemanden
 
-Wir eine Aktion für jemanden gemacht so ändert sich das Verb. Es wird in die applikative Form gebracht. Dabei muss die Verbwurzel betrachtet werden. Bei kupika wäre das -pik-, kulete -let-.
+Wird eine Aktion für jemanden gemacht so ändert sich das Verb. Es wird in die applikative Form gebracht. Dabei muss die Verbwurzel betrachtet werden. Bei kupika wäre das -pik-, kulete -let-.
+
+Die Bedeutung kann je nacht Kontext leicht verschieden sein:
+* for someone
+* to someone
+* on be half 
 
 Ist der letzte Vokal der Wurzel ein **a,i,u** so wird ein **-i-** eingefügt. ninapika → ninapikia.\
 Ist der letzte Vokal der Wurzel ein **e,o** so wird ein **-e-** eingefügt. ninatengeneza → ninatengenezea.
 
-Endet die Wurzel mit einem Vokal so wird zusätzlich **-l-** vor -i- oder -e- geschoben.\
+Endet die Wurzel mit einem Vokal (Doppelvokal-Stamm) so wird zusätzlich **-l-** vor -i- oder -e- geschoben.\
 Beispiel: kununua → -nunu- → kununulia, kufua → -fu- → kufulia
+
+Endet ein Verb nicht auf -a z.B. kujibu so wird der Endbuchstabe durch die applikative Endung ersetzt.\
+Beispiel: kujibu → kujibia, kusafiri → kusafiria, kuhesabu → kuhesabia
+
+Eine wichtige Sprachnuance ist, dass die applikative Form ohne Relativmarker den Ort beschreibt, wo, oder das Werkzeug, mit welchem, die Tätigkeit ausgeführt wird. So erklärt sich z.B. auch das Wort Waschseife oder Kaffeetasse\
+Beispiel: Nitapikia jikoni = Ich werde in der Küche kochen\
+Kisu cha kukatia matunda = Fruchtmesser\
+Kikombe cha kunywea kahawa = Kaffeetasse
+
 
 ### -u- Umkehrung
 
