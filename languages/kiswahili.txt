@@ -740,6 +740,19 @@ Beispiel: Kazi ← ya daktari
 Mit -a kann auch ein Adjektiv gebildet werden. Dabei kann nach dem -a ein Nomen oder ein Infinitiv kommen.\
 Beispiele: Sambusa za mboga = Gemüsesamosa, kuni za kutosha = Genügend Holz, kasha la kuwekea ngua = Kleiderschrank.
 
+### -ote, -ingi, -ngine, -o-ote
+
+Klasse |-ote (alle) | -ingi/-engi (viele) | -ingine/-engine (andere) | -o-ote (irgendwelche, any)
+---|---|---|---|---
+m/wa|-/wote|wengi|mwengine/wengine|yeyote/wowote
+m/mi|wote/yote|mengi/mingi|mwengine/mingine|wowote/yoyote
+ki/vi|chote/vyote|kingi/vingi|kingine/vingine|chochote/vyovyote
+n|yote/zote|nyingi/nying|nyingine/nyingine|yoyote/zozote
+ji/ma|lote/yote|jingi/mengi|jingine/mengine|lolote/yoyote
+u|wote/zote|mengi/mengi|mwengine/mwengine|wowote/wowote
+mahali|pote,kote,mwote|pengi|pengine|popote,kokote
+ku|kote|||kokote
+
 ### Relativsätze
 
 Um ein Satz mit **bevor = kabla** zu formulieren gibt es zwei Varianten (für Vergangenheit/Gegenwart/Zukunft anwendbar).
