@@ -466,10 +466,16 @@ Beispiel: Kwa kawaida ninanunua matunda, Mimi hununua matunda.
 Man kann auch **huwa** (hu- + kuwa) mit einem Prädikat im Präsens verwenden. Die Bedeutung ist identisch zum Prädikat in der hu- Zeit.\
 Beipsiel: Nynyi huenda kutembea? = Nyinyi huwa mnakwenda kutembea?
 
+Wird **huenda** mit einem Verb in der **--ka--** Form verbunden, so drückt dies eine Möglichkeit aus. Dies taucht öfters noch in Zeitungen auf.\
+Beispiel: Huenda ukazungumza = Du kannst/könntest sprechen (You may speak)
+
 Die hu-Zeit hat **keine direkte Negation**. Es wird die obige Konstruktion mit **huwa** verwendet wobei das zweite Prädikat negiert wird. Man kann auch die nachfolgende Form negiert verwenden (-ga → h- -gi).\
 Beispiel: Mimi hula viazi → Mimi huwa sili viazi. Fundi hutengeneza magari → Fundi huwa hatengenezi magari.
 
-Es wird auch das Suffix *-ga* verwendet um wiederkehrende (z.B. tägliche) Handlungen zu beschreiben. ninaendaga schuleni = ich gehe (immer) zur Schule. Oder negiert: siendagi schuleni = ich gehen nicht regelmässig zur Schule
+Im Süden von Tanzania wird auch das Suffix *-ga* verwendet um wiederkehrende (z.B. tägliche) Handlungen zu beschreiben. Es handelt sich hier aber um eine Art Dialekt.\
+Beispiele: ninaendaga schuleni = ich gehe (immer) zur Schule. Oder negiert: siendagi schuleni = ich gehen nicht regelmässig zur Schule
+
+**Allgemein werden diese Formen nicht mehr oft gebraucht. Heute verwendet man nur noch das Präsens -na-.**
 
 ### -i- / -e- Für jemanden
 
