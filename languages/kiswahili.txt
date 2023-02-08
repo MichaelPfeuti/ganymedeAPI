@@ -377,7 +377,7 @@ Mit **vi-** können einige Adjektive in Adverbien umgewandelt werden.\
 Beispiel: Mtoto anaimba vizuri = Das Kind singt schön.
 
 Mit **-vi-** (Adverb-marker) und dem **-o-** Relativmarker (⇒ **-vyo-**) können Relativnebensätze der Form *in der Art wie* gebildet werden. \
-Beispiele: Ni kama alivyosemo = Es ist wie er sagt. Fanya kama upendavyo = Mach es wie es dir gefällt. Sipendi namna alivyoshona shati = Ich mag nicht wie er das Hemd genäht hat. Soma kadiri uwazavyo = Lerne so fest du kannst. Sijui jinsi walivyounda jahazi lile = Ich weiss nicht wie sie dieses Schiff dort gebaut haben.
+Beispiele: Ni kama alivyosemo = Es ist wie er sagt. Fanya kama upendavyo = Mach es wie es dir gefällt. Sipendi namna alivyoshona shati = Ich mag nicht wie er das Hemd genäht hat. Soma kadiri/kadri uwazavyo = Lerne so fest du kannst. Sijui jinsi walivyounda jahazi lile = Ich weiss nicht wie sie dieses Schiff dort gebaut haben.
 
 Man kann auch **jinsi ya** oder **namna ya** verwenden um zu sagen wie etwas gemacht wird. Diese und die -vi- Variante unterscheiden sich in der Allgemeinheit der Aussage. Mit jinsi ya/namna ya wird etwas sehr allgemeines ausgedrückt. Mit -vi- wird gesagt, wie jemand etwas macht, also wie diese Person das im Speziellen macht.\
 Beispiele: Ninajua jinsi ya kupika, Tuambie namna ya kupika ugali.
