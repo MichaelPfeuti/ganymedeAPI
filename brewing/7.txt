@@ -31,9 +31,9 @@ Hefe
 Feedback
   * 13 brix vor kochen 
   * 17 liter würze
+  * Gärung war nach 4 Stunden heftig und nach 2 Tagen abrupt vorbei. Am Folgetag (also 3 Tage nach ansetzten) in Flaschen abgefüllt.
+  * Karbonisierung 3.5g CO2 / l. Beim Einfüllen von Zuckerwasser wurde tendenziell eher 3.5 ml anstatt 4 ml verwendet.
   *
-  * Gärung war nach 4 Stunden heftig und nach 2 Tagen abrupt vorbei. Am Folgetag (also 3.5 Tage nach ansetzten) in Flaschen abgefüllt.
-  * Karbonisierung 4g CO2 / l. Beim Einfüllen von Zuckerwasser wurde tendenziell eher 3.5 ml anstatt 4 ml verwendet.
   * Nach 2 Tagen war 1 Flasche zersprungen. Ich habe eine weiter Flasche geöffnet, um den Druck zu prüfen. Diese hatte nur mässig Druck (wie erwartet, da nur 4 g CO2 / l und etwas weniger Zuckerwasser) Vermutlich hatte die Flasche bereits einen Defekt.
   * keine weiteren Probleme mehr mit der Karbonisierung. Die Kohlensäure ist gut.
   * Geschmack sehr gut
