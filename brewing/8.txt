@@ -1,0 +1,28 @@
+Höpfchen Alt 
+Bemerkung: Basis Rezept von Hanghofer's Höpfchen Alt
+
+Schüttung
+  * 1.5 kg Pilsener Malz
+  * 3.5 kg Münchner Malz
+  * 0.05 kg Weizenröstmalz
+
+Brauwasser
+  * 17 l Hauptguss
+  * 15 l Nachguss (evtl. mehr Nachguss, Ziel nach Rezept: 18 l) 
+
+Maischen (Bottichmaischen, siehe S91 Hanghofer)
+  - Einmaischen von 11 l von 65 °C -> 57 °C
+  - Nach 10 Min 6 l von 77 °C zubrühen -> 17 l von 63 °C
+  - Nach 30 Min 8 l Kochmaische ziehen von bei 70-72 °C verzuckern. 
+  - 10 Min kochen dann zubrühen -> 75 °C
+  - Nach Jodnormalität, sedimentieren lassen und abmaischen
+
+Hopfung
+  * Kochen nach Würzebruch: 70 Min.
+  * Einfache Bitterhopfung/nach Würzebruch: Spalt Select (3.9%, 70g)
+
+Hefe
+  * Wyeast 1007, German Ale XL
+
+Feedback
+  * 
