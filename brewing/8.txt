@@ -29,5 +29,6 @@ Feedback
   * Absolutes Maximum zum Würzekochen (33 l)
   * 13 brix vor kochen 
   * 18 l Würze
-  * Gärung war nach 4 Stunden heftig
+  * Gärung war nach 4 Stunden heftig und nach 2 Tagen abrupt vorbei. Am Folgetag (also 3 Tage nach ansetzten) in Flaschen abgefüllt.
+  * Karbonisierung 4g CO2 / l. Beim Einfüllen von Zuckerwasser wurde tendenziell eher 3.5 ml anstatt 4 ml verwendet, bzw. 5.5 anstatt 6 ml.
 
