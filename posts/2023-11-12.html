@@ -1,0 +1,92 @@
+Quantile Estimation
+Mathematics
+
+<p>I had no idea how useful pinball could be. However, in a recent talk I attended, they were not talking
+	about the pinball machine but about the pinball loss function. The pinball loss function is based on the
+  following "pinball" function. (The name becomes obvious when this function is plotted.).</p>
+<p id="formula">
+  $\begin{eqnarray}
+  p_\alpha(x) &=& x(\alpha - \mathbb{1}_{x<0}) \\
+  &=& \alpha \cdot max(x,0) + (\alpha - 1) \cdot min(x,0)
+  \end{eqnarray}
+  $
+</p>
+<p>The actual loss function is the expected value of the difference $Y-u$ of an observation $Y$ from a value $u$.
+  It can be shown that this loss function becomes minimal if $u$ equals the $\alpha$-quantile. So, to get an estimate for 
+  the $\alpha$-quantile, we have to solve this minimization task. But since we do not know the true distribution of our observations
+  we cannot solve the problem exactly. We use our actual observations ($y_1, y_2, ..., y_n$) to approximate the expected value by the mean. 
+  To be more precise:
+</p>
+<p id="formula">
+  $E(p_\alpha(Y-u)) \approx \frac{\sum_{i=1}^{n}p_\alpha(y_i-u)}{n}$
+</p>
+<p>
+  Now we just have to find the $u$ which minimizes this loss function. The following code snippet implements
+	the loss function and estimates the 75% quantile from some observations. 
+</p>
+<pre>
+import numpy as np
+from scipy.stats import lognorm
+from scipy.optimize import minimize
+
+def pinball(x, alpha):
+  return alpha * np.maximum(x, 0) + (alpha - 1) * (np.minimum(x, 0))
+
+# The pinball loss function is the mean of the "pinball" function applied to obs-u
+def pinball_loss(u, obs, alpha):
+  return np.mean(pinball(obs-u, alpha))
+
+# We want to estimate the 75% quantile
+alpha = 0.75
+
+# Here we generate some lognormal observations
+obs = lognorm.rvs(1,2, size=1000)
+quantile_estimate = minimize(lambda q: pinball_loss(q, obs, alpha=alpha), 0).x[0]
+</pre>
+
+<p>
+  Here we know the true distribution of the observations (lognormal), therefore we can compute the true quantile value. 
+  To get a feeling of the estimation, we can run several simulation runs and visualize the distribution of the estimates 
+  around the true quantile value.
+</p>
+
+<pre>
+sample_size = 1000
+simulation_count = 1000
+
+dist = lognorm(1, 2)
+alpha = 0.75
+
+minimizations = []
+for _ in range(simulation_count):
+    obs = dist.rvs(size=sample_size)
+    result = minimize(lambda q: pinball_loss(q, obs, alpha=alpha), 0)
+    minimizations.append(result)
+
+estimates = [e.x[0] for e in minimizations]
+est_mean = np.mean(estimates)
+est_std = np.std(estimates)
+
+ax = sns.kdeplot(estimates)
+ax.axvline(est_mean,ls="--")
+ax.axvline(est_mean+est_std,ls=":")
+ax.axvline(dist.ppf(alpha),ls="--", color="r")
+ax.axvline(est_mean-est_std,ls=":")
+plt.legend(["Estimates", 
+            "Estimates Mean",
+            "Estimates Mean +/- Std",
+            f"True {100*alpha}% quantile"])
+ax.set(xlabel=f"{100*alpha}% quantile",
+        title="Quantile Estimate Distribution")
+</pre>
+
+<p>The resulting estimated quantile values are distributed as shown in the follow figure. 
+  Of course the quantily of the estimate depends on the distribution of the observations, the $\alpha$ value and the sample size.
+</p>
+<img src="https://files.ganymede.ch/files/images/2023-11-12.png" alt="" width="50%" />
+
+<p>
+  The quantile estimation method also shows why the absolute error loss function leads to an estimate of the median. By simply
+  plugging $\alpha = 0.5$ into the pinball loss function, we obtain the absolute error loss function. Therefore, the absolute error loss
+  function leads to an estimate of the median.
+</p>
