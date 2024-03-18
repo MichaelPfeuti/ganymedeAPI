@@ -806,6 +806,8 @@ Beispiel: Ndipo utakoroga = (es ist dann,) wenn du rühren wirst.
 Die Verneinung "es ist nicht so" wird einfach mit **si-** und den Suffixen gebildet.\
 Beispiel: Kinyago kiki sicho tunchokitaka = das ist nicht die Schnitzerei die wir wollen.
 
+Um "This is how" zu übersetzen verwenden wir "hivi ndivyo"
+
 ### Zahlen
 Zahl|Swahili
 ---|---
