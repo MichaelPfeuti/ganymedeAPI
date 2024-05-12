@@ -1,0 +1,40 @@
+Punk IPA (6ter Versuch)
+Bemerkung: Basis Rezept von Brewdog Punk IPA 2007-2010 (Andere Hopfung)
+
+Schüttung
+  * 5.3 kg Pale Ale Malz 
+
+Brauwasser
+  * 22 l Hauptguss
+  * 9  l Nachguss mit 78 °C
+
+Maischen (Englisches Infusionsverfahren siehe S. 105 Hanghofer)
+  - Einmaischen von 13 l mit 76°C + 1 l mit kaltes Leitungswasser -> 64 °C (Aussentemperatur: 20 °C)
+  - Nach 75 Min 8 l kochendes Wasser zubrühen -> 72 °C (Sud Temperatur: ?? °C, nicht gemessen)
+  - Nach Jodnormalität, sedimentieren lassen und abmaischen
+
+Hopfung 
+  * Kochen nach Würzebruch: 70 Min.
+
+  * (Start) Bitterhopfung/Vorderwürze: Ahtanum (4.4%, 13 g)
+  * (Start) Bitterhopfung/Vorderwürze: Chinook (11.4%, 11 g)
+  * (Mitte) Bei Kochbegin i.e. 100°C: Crystal (3.6%, 20 g)
+  * (Mitte) Bei Kochbegin i.e. 100°C: Chinook (11.4%, 17 g)
+  * (Ende) Bei Kühlung 65 °C: Ahtanum (4.4%, 37 g)
+  * (Ende) Bei Kühlung 65 °C: Chinook (11.4%, 22 g)
+  * (Ende) Bei Kühlung 65 °C: Crystal (3.6%, 20 g)
+  * (Ende) Bei Kühlung 65 °C: Motueka (8.2%, 20 g)
+
+Hefe
+  * Wyeast 1056, American Ale
+
+Feedback
+  * 13 brix vor kochen 
+  * 17 liter würze
+  * Gärung war nach 4 Stunden heftig und nach 2 Tagen abrupt vorbei. Am Folgetag (also 3 Tage nach ansetzten) in Flaschen abgefüllt.
+  * Karbonisierung 3.5g CO2 / l. Beim Einfüllen von Zuckerwasser wurde tendenziell eher 3.5 ml anstatt 4 ml verwendet.
+  * Karbonisierung ist zu hoch. Es mussten einige Flaschen 5-10 entlüftet werden. Vermutlich waren 3 Tage Gärung zu wenig lange vor dem Abfüllen.
+  * Geschmack, Schaum sehr gut
+  * Hopfennase eher gering, wie immer ohne Dry Hopping.
+  * Bitterkeit hoch aber gut.
+  * Alles in Allem top Ergebnis 
