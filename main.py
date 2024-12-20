@@ -19,7 +19,8 @@ origins = [
     "http://127.0.0.1:5173",
     "https://ganymede.ch",
     "https://www.ganymede.ch",
-    "https://dev.ganymede.ch"
+    "https://dev.ganymede.ch",
+    "https://github.ganymede.ch",
 ]
 
 app.add_middleware(
