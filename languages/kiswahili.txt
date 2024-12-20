@@ -585,7 +585,7 @@ Beispiele: kula (essen) → kulisha (grasen), kunyama (still sein) → kunaymaza
 
 ### Zeitformen
 
-[<img src="https://files.ganymede.ch/files/images/kiswahili_tenses.jpg" alt="Übersicht der Zeitformen" width="25%" />](https://files.ganymede.ch/files/images/kiswahili_tenses.jpg)
+[<img src="/images/kiswahili_tenses.jpg" alt="Übersicht der Zeitformen" width="25%" />](/images/kiswahili_tenses.jpg)
 
 Zeit/Modus | Infix | Negiert
 ---|---|---

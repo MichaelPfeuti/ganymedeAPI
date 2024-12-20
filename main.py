@@ -3,6 +3,7 @@ from typing import Union
 import urllib
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 import math
 import os
@@ -30,6 +31,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.mount("/images", StaticFiles(directory="images"), name="images")
 
 class Post(BaseModel):
     title: str
@@ -69,7 +72,6 @@ def get_post_files(tag):
 def posts_count(tag: Union[str, None] = None):
     files = get_post_files(tag)
     return get_page_count(files)
-
 
 @app.get("/posts/page/{page}")
 def posts_page(page: int, tag: Union[str, None] = None):
