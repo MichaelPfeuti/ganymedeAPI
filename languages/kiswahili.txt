@@ -542,14 +542,14 @@ Ob **-ik-** oder **-ek-** verwendet wird hängt wie bei der Applikativen Form -i
 Beachte, dass die Zeitform **-me-** verwendet wird, um den Zustand in der Gegenwart auszudrücken.\
 Beispiel: Nimetosheka = Ich bin satt (hatte genug zu Essen), Kizi imefanyika = Die Arbeit ist erledigt. Mlango umefungika = Die Tür ist geschlossen.
 
-Wird eine andere Zeitform verwendet so ändert sich die Funktion zu einer adjekt Funktion.\
+Wird eine andere Zeitform verwendet so ändert sich die Funktion zu einer adjekt Funktion.  \
 Beispiele: Vikombe hivi vinavunkika = Die Tassen hier sind zerbrechlich. Ndizi haziliki (kula) = Die Bananen sind nicht essbar. Nyumba inakalika (kukaa) = Das Haus ist bewohnbar.
 
 Gewisse Verben verwenden die **-kana-** Form für die adjektive Funktion.\
 Beispiele: Kifaa kionekana = Das Werkzeug ist sichtbar, Nyumba yao haionekani = Ihr Haus ist nicht sichtbar. Haiwezekani = Es ist nicht machbar.
 
-Mit dieser Form kann auch ein Wort zu Endung "-bar" erhalten.\
-Beispiel essbar = kulika
+Mit dieser Form kann auch ein Wort zu Endung "-bar" erhalten. Es wird so die Möglichkeit ausgedrückt.\
+Beispiel essbar = kulika, Chakula hiki hakipikiki = Dieses Essen ist nicht kochbar.
 
 ### -an- / Reziproke Form
 
@@ -661,6 +661,7 @@ Diese Form hast verschiedene Anwendungen:
   * Müssen (Ni lazima nisome kitabu = Ich muss ein Buch lesen)  Beachte: Ni ist optional. Diese Form kann nur für das Präsens verwendet werden. Alle anderen Zeitformen verlangen kubidi oder kulazimu,
   * Müssen (= kubidi → inabidi nisome kitabu = Ich muss ein Buch lesen = (wörtlich) es war zwingend, dass ich ein Buch lese.) Beachte: Mann kann auch sagen "ich musste" = ina*ni*bidi kusoma = (wörtlich) ich bin gezwungen, da kubidi=zwingen bedeutet. Alternativ kann auch das Wort kulazimu verwendet werden. Also inalazimu nisome kitabu oder inanilazimu nisome kitabu. Um andere Zeitformen zu verwenden geht man wie mit jedem anderen Verb um (na → li, me, ta, …)
   * Sollen (Ni afadhali nisome kitabu = Ich soll ein Buch lesen) Beachte: Ni ist optional. Geläufiger ist aber das Wort **kupaswa**. z.B. ninapaswa kusoma kitabu = es wird von mir erwartet das Buch zu lesen = ich soll das Buch lesen.
+  * Paswa / bidi / takiwa sind etwas schwächer als lazima / lazimika. Paswa kann als 'sollte' verwendet werden.
 
 Für die Negation wird einfach das Infix **-si-** vor den Verstamm eingefügt. Objektpronomen kommen nach dem si.\
 Beispiel: usipige, usikinunua
@@ -804,6 +805,8 @@ Beispiel: Ndipo utakoroga = (es ist dann,) wenn du rühren wirst.
 
 Die Verneinung "es ist nicht so" wird einfach mit **si-** und den Suffixen gebildet.\
 Beispiel: Kinyago kiki sicho tunchokitaka = das ist nicht die Schnitzerei die wir wollen.
+
+Um "This is how" zu übersetzen verwenden wir "hivi ndivyo"
 
 ### Zahlen
 Zahl|Swahili
