@@ -4,6 +4,7 @@ import urllib
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from starlette.requests import Request
 from pydantic import BaseModel
 import math
 import os
@@ -12,6 +13,8 @@ POSTS_PER_PAGE = 5
 POSTS_FODLER = "posts"
 BREWING_FOLDER = "brewing"
 TAGS_FILE = "tags.txt"
+IMAGE_BASE_URL_PLACEHOLDER = "_IMAGES_/"
+IMAGE_FOLDER ="images"
 
 app = FastAPI()
 
@@ -32,7 +35,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.mount("/images", StaticFiles(directory="images"), name="images")
+app.mount(f"/{IMAGE_FOLDER}", StaticFiles(directory=IMAGE_FOLDER), name=IMAGE_FOLDER)
 
 class Post(BaseModel):
     title: str
@@ -40,6 +43,8 @@ class Post(BaseModel):
     html: str
     date: str
 
+def inject_images_url(test:str, base_url: str):
+    return test.replace(IMAGE_BASE_URL_PLACEHOLDER, f"{base_url}{IMAGE_FOLDER}/")
 
 def read_post_data(post):
     with open(os.path.join(POSTS_FODLER, post)) as f:
@@ -48,10 +53,8 @@ def read_post_data(post):
         html = f.read()
     return {"title": title, "tags": tags, "html": html, "date": post.split(".")[0]}
 
-
 def get_page_count(posts):
     return math.ceil(len(posts) / POSTS_PER_PAGE) 
-
 
 def get_post_tags():
     tags = dict()
@@ -63,7 +66,7 @@ def get_post_tags():
 
 def get_post_files(tag):
     tag = urllib.parse.unquote(tag, encoding='utf-8', errors='replace')
-    if(tag and tag != "all"):
+    if(tag != "all"):
         return get_post_tags().get(tag, [])
     else:
         return os.listdir(POSTS_FODLER)
@@ -74,27 +77,30 @@ def posts_count(tag: Union[str, None] = None):
     return get_page_count(files)
 
 @app.get("/posts/page/{page}")
-def posts_page(page: int, tag: Union[str, None] = None):
+def posts_page(page: int, request: Request, tag: Union[str, None] = None):
     files = get_post_files(tag)
     files = sorted(files, reverse=True)
     if page < 0 or page >= get_page_count(files):
         raise HTTPException(status_code=404, detail="Page not found")
 
     start_idx = page * POSTS_PER_PAGE
-    return [
+    posts = [
         read_post_data(path) for path in files[start_idx : (start_idx + POSTS_PER_PAGE)]
     ]
-
+    for p in posts:
+        p["html"] = inject_images_url(p["html"], str(request.base_url))
+    return posts
 
 @app.get("/posts/tags")
 def posts_tags():
     return list(get_post_tags().keys())
 
 @app.get("/languages/{lang}")
-def kiswahili(lang:str):
+def kiswahili(lang:str, request: Request):
     try:
         with open("languages/"+lang+".txt") as f:
-            return f.read()
+            content = f.read()
+            return inject_images_url(content, str(request.base_url))
     except:
         raise HTTPException(status_code=404, detail="Language File not Found")
 
