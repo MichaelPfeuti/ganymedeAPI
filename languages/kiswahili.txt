@@ -127,6 +127,11 @@ Werden Nomen aus verschiedenen Klassen aufgelistet so wird entwender **vi-** (vo
 Um ein Infinitif zu negieren wird das Infix **-to-** verwendet.\
 Beispiel: kupiga = zu schlagen, kutopiga = nicht zu schlagen
 
+Korrekter wäre **kuto + verb** zu verwenden.\
+Beipsiel: kuto kupiga kwake watoto kutamletea matatizo = Sein Schlagen von Kindern wird ihm Probleme bringen.
+
+In der Praxis wird beides verwendet, also mit Infix **-to-** oder mit separatem Work **kuto**
+
 ### Personalpronomen/Objektpronomen
 
 Die Personalpronomen sind Infixe welche auf das Zeitinfix folgt.
