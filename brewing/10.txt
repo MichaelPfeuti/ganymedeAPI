@@ -7,31 +7,33 @@ Schüttung
 
 Brauwasser
   * 22 l Hauptguss
-  * 9  l Nachguss mit 78 °C
+  * 9  l Nachguss mit 78°C
 
 Maischen (Englisches Infusionsverfahren siehe S. 105 Hanghofer)
-  - Einmaischen von 13 l @ 75°C + 1 l @ 20 °C mit kaltes Leitungswasser -> 63 °C (Aussentemperatur: 20 °C)
-  - Nach 75 Min 8 l kochendes Wasser zubrühen -> 72 °C
+  - Einmaischen von 13 l @ 75°C (Ziel 75°C) + 1 l @ 20°C mit kaltes Leitungswasser -> 63 °C (Ziel: 64°C, Aussentemperatur: 13°C)
+  - Nach 75 Min 8 l kochendes Wasser + 1 l kochendes Wasser zubrühen -> 73 °C (Ziel: 73°C) 
   - Nach Jodnormalität, sedimentieren lassen und abmaischen
 
 Hopfung 
-  * Kochen nach Würzebruch: 70 Min.
-
+  * Kochen nach Würzebruch: 75 Min.
   * (Start) Bitterhopfung/Vorderwürze: Ahtanum (4.4%, 13 g)
   * (Start) Bitterhopfung/Vorderwürze: Chinook (11.4%, 11 g)
   * (Mitte) Bei Kochbegin i.e. 100°C: Crystal (3.6%, 20 g)
   * (Mitte) Bei Kochbegin i.e. 100°C: Chinook (11.4%, 17 g)
-  * (Ende) Bei Kühlung 75 °C: Ahtanum (4.4%, 37 g)
-  * (Ende) Bei Kühlung 75 °C: Chinook (11.4%, 22 g)
-  * (Ende) Bei Kühlung 75 °C: Crystal (3.6%, 20 g)
-  * (Ende) Bei Kühlung 75 °C: Motueka (8.2%, 20 g)
+  * (Ende) Bei Kühlung 67°C: Ahtanum (4.4%, 37 g)
+  * (Ende) Bei Kühlung 67°C: Chinook (11.4%, 22 g)
+  * (Ende) Bei Kühlung 67°C: Crystal (3.6%, 20 g)
+  * (Ende) Bei Kühlung 67°C: Motueka (8.2%, 20 g)
+
+Stammwürze
+  - vor Nachguss 9 Brix
+  - beim Würzekühlen 14 Brix
 
 Hefe
   * Wyeast 1056, American Ale
+  * Vergärung bei 16°C im Keller (gemäss WYEAST führt das zu besserer Zitrusnote)
 
 Feedback
-  *
-  * 11 brix vor kochen 
   * 16 liter würze
   * Gärung war nach 4 Stunden heftig und nach 4 Tagen am ausklingen. Am 6ten Folgetag in Flaschen abgefüllt.
   * Karbonisierung 3.5g CO2 / l. Beim Einfüllen von Zuckerwasser wurde tendenziell eher 3.5 ml anstatt 4 ml verwendet.
