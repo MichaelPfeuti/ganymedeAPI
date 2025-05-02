@@ -1,7 +1,7 @@
 London Pride (1ter Versuch)
 
 Schüttung
-  * 4.25 kg Pale Malz 
+  * 4.25 kg Maris Otter Pale Malz 
   * 0.25 kg Crystal Malz
 
 Brauwasser
@@ -15,10 +15,10 @@ Maischen (Englisches Infusionsverfahren siehe S. 105 Hanghofer)
 
 Hopfung 
   * Kochen nach Würzebruch: 60 Min.
-  * Bei Würzebruch: Target (3.6%, 20 g)
-  * 10 Minuten vor Kochende: Northdown (4.4%, 10 g)
-  * 10 Minuten vor Kochende: Goldings (4.4%, 10 g)
-  * 10 Minuten vor Kochende: Challenger (4.4%, 10 g)
+  * Bei Würzebruch: Target (11.3%, 20 g)
+  * 10 Minuten vor Kochende: Northern Brewer (7%, 10 g) (Ersatz für Northdown)
+  * 10 Minuten vor Kochende: Goldings (4.2%, 10 g)
+  * 10 Minuten vor Kochende: Challenger (4.6%, 10 g)
 
 Stammwürze
   - vor Nachguss ? Brix
