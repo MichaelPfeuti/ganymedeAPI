@@ -5,8 +5,8 @@ Schüttung
   * 0.25 kg Crystal Malz
 
 Brauwasser
-  * 18 l Hauptguss
-  * 15 l Nachguss mit 78°C
+  * 21 l Hauptguss
+  * 12 l Nachguss mit 78°C
 
 Maischen (Englisches Infusionsverfahren siehe S. 105 Hanghofer)
   - Einmaischen von 15 l @ 77°C (Ziel 75°C) + 1 l kaltes Leitungswasser-> 64 °C (Ziel: 64°C, Aussentemperatur: 16°C)
@@ -21,7 +21,6 @@ Hopfung
   * 10 Minuten vor Kochende: Challenger (4.6%, 10 g)
 
 Stammwürze
-  - vor Nachguss ? Brix
   - beim Würzekühlen ? Brix
 
 Hefe
