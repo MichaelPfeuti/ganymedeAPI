@@ -10,7 +10,7 @@ Brauwasser
 
 Maischen (Englisches Infusionsverfahren siehe S. 105 Hanghofer)
   - Einmaischen von 15 l @ 77°C (Ziel 75°C) + 1 l kaltes Leitungswasser-> 64 °C (Ziel: 64°C, Aussentemperatur: 16°C)
-  - Nach 60 Min 3 l kochendes Wasser zubrühen -> ?? °C (Ziel: 73°C) 
+  - Nach 60 Min 6 l kochendes Wasser zubrühen -> 72 °C (Ziel: 73°C) 
   - Nach Jodnormalität, sedimentieren lassen und abmaischen
 
 Hopfung 
