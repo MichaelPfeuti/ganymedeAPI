@@ -641,10 +641,13 @@ Die Negation von -ka- ist dieselbe wie die Negation der e-Form.\
 Beispiel: Nilikwenda kwa Mama Lela nikapiga hodi nikasubiri kidogo nisimwone = Ich ging zu Mama Lela und bat dann um Einlass und wartete ein bisschen und ich sah sie nicht.\
 
 Die -ka- Form kann in viele Situationen verwendet werden, nicht nur in der Vergangenheit.\
-Beispiel: Mkimpa pesa akzipoteza mtafanya nin basi? = Wenn du ihm Geld gibts und er verschwendet es dann, was tust du dann?
+Beispiel: Ukimpa pesa akazipoteza utafanya nini basi? = Wenn du ihm Geld gibts und er verschwendet es dann, was tust du dann?
 
 Wenn -ka- auf ein Infititiv folgt so hat es die Bedeutung von **so dass**.\
 Beispiel: Tutawezaje kumsaidia msichana akaendelea na masomo chuo kikuu? = Wie können wir der jungen Frau helfen so dass sie ihre Ausbildung an der Universität weiterfährt.
+
+Eine weitere Bedeutung von ka- ist **ame**. Hier fehlt das Subjekt. \
+Beispiel: Amepika pizza = Kapika pizza = Sie hat Pizza gekocht.
 
 ****** Es kann das Plusquam-Perfekt (**-me-**, Abgeschlossene Handlung in der Vergangenheit) oder das Plusquam-Continuous (**-ki**, Laufende Handlung in der Vergangenheit) gebildet werden.\
 Beispiele: alikuwa amekaa = er hatte sich hingesetzt, alikuwa akiendesha = sie war am fahren. hakuwa akiendesha = er war nicht am fahren. 
