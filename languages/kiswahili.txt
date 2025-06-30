@@ -474,6 +474,9 @@ Beipsiel: Nynyi huenda kutembea? = Nyinyi huwa mnakwenda kutembea?
 Wird **huenda** mit einem Verb in der **--ka--** Form verbunden, so drückt dies eine Möglichkeit aus. Dies taucht öfters noch in Zeitungen auf.\
 Beispiel: Huenda ukazungumza = Du kannst/könntest sprechen (You may speak)
 
+Weiter kann **huenda** auch mit **--li--**, **--na--**, und **--ta--** verwendet werden um eine Möglichkeit in anderen Zeiten auszudrücken. Beachte, dass **--ka--** und **--ta--** dieselbe Bedeutung haben.\
+Beispiele: Huenda ulipinka = Du hättest kochen können., Huenda unapike = du könntest jetzt kochen.Huenda utapika = du könntest kochen.
+
 Die hu-Zeit hat **keine direkte Negation**. Es wird die obige Konstruktion mit **huwa** verwendet wobei das zweite Prädikat negiert wird. Man kann auch die nachfolgende Form negiert verwenden (-ga → h- -gi).\
 Beispiel: Mimi hula viazi → Mimi huwa sili viazi. Fundi hutengeneza magari → Fundi huwa hatengenezi magari.
 
