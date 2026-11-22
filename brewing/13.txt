@@ -1,0 +1,44 @@
+Punk IPA (9ter Versuch)
+Bemerkung: Basis Rezept von Brewdog Punk IPA 2007-2010 (Andere Hopfung)
+
+Schüttung
+  * 5.3 kg Pale Ale Malz 
+
+Brauwasser
+  * 22 l Hauptguss
+  * 9  l Nachguss mit 78°C
+
+Maischen (Englisches Infusionsverfahren siehe S. 105 Hanghofer)
+  - Einmaischen von 13 l @ ??°C (Ziel 75°C) + ?l @ 20°C mit kaltem Leitungswasser -> ??°C (Ziel: 64°C, Aussentemperatur: ??°C)
+  - Nach 75 Min 8 l kochendes Wasser -> ??°C (Ziel: 73°C) 
+  - Nach Jodnormalität, sedimentieren lassen und abmaischen
+
+Hopfung 
+  * Kochen nach Würzebruch: 75 Min.
+  * (Start) Bitterhopfung/Vorderwürze: Ahtanum (4.4%, 13 g)
+  * (Start) Bitterhopfung/Vorderwürze: Chinook (11.4%, 11 g)
+  * (Mitte) Bei Kochbegin i.e. 100°C: Crystal (3.6%, 20 g)
+  * (Mitte) Bei Kochbegin i.e. 100°C: Chinook (11.4%, 17 g)
+  * (Ende) Bei Kühlung 44°C: Ahtanum (4.4%, 37 g)
+  * (Ende) Bei Kühlung 44°C: Chinook (11.4%, 22 g)
+  * (Ende) Bei Kühlung 44°C: Crystal (3.6%, 20 g)
+  * (Ende) Bei Kühlung 44°C: Motueka (8.2%, 20 g)
+
+Stammwürze
+  - vor Nachguss ?? Brix
+  - beim Würzekühlen ?? Brix
+
+Hefe
+  * Wyeast 1056, American Ale
+  * Vergärung bei ??°C im Keller (gemäss WYEAST führen tiefere Temperaturen zu besserer Zitrusnote)
+
+Feedback
+  * ?? Liter Würze
+  * 
+  * Gärung war nach 4 Stunden heftig und nach 4 Tagen am ausklingen. Mit neuem Gärnbottich war am Röhrchen, erst nach gut 12-14 keine Bewegung mehr zu entdecken. 
+  * Karbonisierung 3.5g CO2 / l. Beim Einfüllen von Zuckerwasser wurde tendenziell eher etwas weniger als 3.5 ml anstatt verwendet.
+  * Karbonisierung tip top.
+  * Geschmack ist weniger gut als auch schon. Es scheint eine Restsüsse zu haben. Schaum weniger beständig als sonst.
+  * Hopfennase eher gering.
+  * Bitterkeit hoch aber gut.
+  * Alles in Allem nur ein mässiges Ergebnis.
